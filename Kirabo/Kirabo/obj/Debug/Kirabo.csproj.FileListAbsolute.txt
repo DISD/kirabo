@@ -1,0 +1,14 @@
+E:\windows-phone-apps\kirabo\Kirabo\Kirabo\Bin\Debug\ApplicationIcon.png
+E:\windows-phone-apps\kirabo\Kirabo\Kirabo\Bin\Debug\Background.png
+E:\windows-phone-apps\kirabo\Kirabo\Kirabo\Bin\Debug\Kirabo.dll
+E:\windows-phone-apps\kirabo\Kirabo\Kirabo\Bin\Debug\Kirabo.pdb
+E:\windows-phone-apps\kirabo\Kirabo\Kirabo\Bin\Debug\AppManifest.xaml
+E:\windows-phone-apps\kirabo\Kirabo\Kirabo\Bin\Debug\Kirabo.xap
+E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\ResolveAssemblyReference.cache
+E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\App.g.i.cs
+E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\DetailsPage.g.i.cs
+E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\MainPage.g.i.cs
+E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\Kirabo.g.resources
+E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\Kirabo.dll
+E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\Kirabo.pdb
+E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\XapCacheFile.xml
