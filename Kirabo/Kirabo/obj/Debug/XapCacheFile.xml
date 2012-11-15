@@ -1,8 +1,9 @@
-﻿<xapCache source="E:\windows-phone-apps\kirabo\Kirabo\Kirabo\Bin\Debug\Kirabo.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="11/13/2012 11:16:22 AM">
+﻿<xapCache source="E:\windows-phone-apps\kirabo\Kirabo\Kirabo\Bin\Debug\Kirabo.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="11/15/2012 9:50:08 AM">
   <file source="E:\windows-phone-apps\kirabo\Kirabo\Kirabo\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="11/13/2012 11:16:11 AM" />
-  <file source="E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\Kirabo.dll" archivePath="Kirabo.dll" lastWriteTime="11/13/2012 11:16:21 AM" />
+  <file source="E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\Kirabo.dll" archivePath="Kirabo.dll" lastWriteTime="11/15/2012 9:50:07 AM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v7.0\Libraries\Silverlight\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="9/1/2010 3:51:10 AM" />
   <file source="E:\windows-phone-apps\kirabo\Kirabo\Kirabo\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="11/13/2012 11:16:11 AM" />
   <file source="E:\windows-phone-apps\kirabo\Kirabo\Kirabo\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="11/13/2012 11:16:11 AM" />
   <file source="E:\windows-phone-apps\kirabo\Kirabo\Kirabo\Background.png" archivePath="Background.png" lastWriteTime="11/13/2012 11:16:11 AM" />
-  <file source="E:\windows-phone-apps\kirabo\Kirabo\Kirabo\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="11/13/2012 11:16:22 AM" />
+  <file source="E:\windows-phone-apps\kirabo\Kirabo\Kirabo\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="11/14/2012 3:36:13 PM" />
 </xapCache>

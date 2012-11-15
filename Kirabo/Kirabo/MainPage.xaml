@@ -23,13 +23,12 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock x:Name="ApplicationTitle" Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock x:Name="PageTitle" Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock x:Name="PageTitle" Text="Kirabo" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel contains ListBox and ListBox ItemTemplate. Place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <ListBox x:Name="MainListBox" Margin="0,0,-12,0" ItemsSource="{Binding Items}" SelectionChanged="MainListBox_SelectionChanged">
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0" Background="#FF4FDBDB">
+            <!--<ListBox x:Name="MainListBox" Margin="0,0,-12,0" ItemsSource="{Binding Items}" SelectionChanged="MainListBox_SelectionChanged">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                       <StackPanel Margin="0,0,0,17" Width="432">
@@ -38,7 +37,9 @@
                       </StackPanel>
                     </DataTemplate>
                 </ListBox.ItemTemplate>
-            </ListBox>
+            </ListBox>-->
+            <Button Content="Choose agift" Height="72" HorizontalAlignment="Left" Margin="122,361,0,0" Name="kiraboStart" VerticalAlignment="Top" Width="276" Click="kiraboStart_Click" />
+            <Image Height="178" HorizontalAlignment="Left" Margin="137,66,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="200" ImageFailed="image1_ImageFailed" />
         </Grid>
     </Grid>
  

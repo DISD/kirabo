@@ -15,66 +15,58 @@ namespace Kirabo
 {
     public class ItemViewModel : INotifyPropertyChanged
     {
-        private string _lineOne;
-        /// <summary>
-        /// Sample ViewModel property; this property is used in the view to display its value using a Binding.
-        /// </summary>
-        /// <returns></returns>
-        public string LineOne
+
+        private string _ItemName;
+        public string ItemName
         {
             get
             {
-                return _lineOne;
+                return _ItemName;
             }
             set
             {
-                if (value != _lineOne)
-                {
-                    _lineOne = value;
-                    NotifyPropertyChanged("LineOne");
-                }
+                _ItemName = value;
+                NotifyPropertyChanged("ItemName");
             }
         }
 
-        private string _lineTwo;
-        /// <summary>
-        /// Sample ViewModel property; this property is used in the view to display its value using a Binding.
-        /// </summary>
-        /// <returns></returns>
-        public string LineTwo
+        private string _ItemImage;
+        public string ItemImage
         {
             get
             {
-                return _lineTwo;
+                return _ItemImage;
             }
             set
             {
-                if (value != _lineTwo)
-                {
-                    _lineTwo = value;
-                    NotifyPropertyChanged("LineTwo");
-                }
+                _ItemImage = value;
+                NotifyPropertyChanged("ItemImage");
             }
         }
 
-        private string _lineThree;
-        /// <summary>
-        /// Sample ViewModel property; this property is used in the view to display its value using a Binding.
-        /// </summary>
-        /// <returns></returns>
-        public string LineThree
+        private string _ItemDescription;
+        public string ItemDescription
         {
             get
             {
-                return _lineThree;
+                return _ItemDescription;
             }
             set
             {
-                if (value != _lineThree)
-                {
-                    _lineThree = value;
-                    NotifyPropertyChanged("LineThree");
-                }
+                _ItemDescription = value;
+                NotifyPropertyChanged("ItemDescription");
+            }
+        }
+
+        private bool _IsSelected;
+
+        public bool IsSelected
+        {
+            get { return _IsSelected; }
+            set
+            {
+                _IsSelected = value;
+                NotifyPropertyChanged("IsSelected");
             }
         }
 
