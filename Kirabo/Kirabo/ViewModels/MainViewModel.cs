@@ -33,7 +33,7 @@ namespace Kirabo
         
         public ObservableCollection<ItemViewModel>CategoryOfGifts { get; private set; }
 
-        public ObservableCollection<ItemViewModel> Gifts { get; private set; } 
+        public ObservableCollection<ItemViewModel>Gifts { get; private set; } 
 
         private string _sampleProperty = "Sample Runtime Property Value";
         /// <summary>
@@ -69,13 +69,9 @@ namespace Kirabo
         public void LoadData()
         {
             #region
-            // Sample data: Category
-            this.CategoryOfGifts.Add(new ItemViewModel() { ItemName = "Love", ItemImage = "../Images/sunflower.jpg", ItemDescription = "Passionate love" });
-            this.CategoryOfGifts.Add(new ItemViewModel() { ItemName = "Kids", ItemImage = "../Images/white roses flowers wallpapers (8).png", ItemDescription = "3 to 13" });
-
             //Sample data:Gifts
-            this.Gifts.Add(new ItemViewModel() { ItemName = "Pink rose", ItemImage = "../Images/12_pink_rose.jpg", ItemDescription = "long" });
-            this.Gifts.Add(new ItemViewModel() { ItemName = "Violet rose", ItemImage = "../Images/VioletTulip.jpg", ItemDescription = "long" });
+            //this.Gifts.Add(new ItemViewModel() { ItemName = "Pink rose", ItemImage = "../Images/12_pink_rose.jpg", ItemDescription = "Friendship" });
+            //this.Gifts.Add(new ItemViewModel() { ItemName = "White rose", ItemImage = "../Images/VioletTulip.jpg", ItemDescription = "Purity" });
             
         #endregion
             this.IsDataLoaded = true;

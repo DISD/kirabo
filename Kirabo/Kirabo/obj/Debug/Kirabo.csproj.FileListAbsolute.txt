@@ -15,4 +15,4 @@ E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\XapCacheFile.xml
 E:\windows-phone-apps\kirabo\Kirabo\Kirabo\Bin\Debug\Microsoft.Phone.Controls.dll
 E:\windows-phone-apps\kirabo\Kirabo\Kirabo\Bin\Debug\Microsoft.Phone.Controls.xml
 E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\CategorySelection.g.i.cs
-E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\Page2.g.i.cs
+E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\Gifts.g.i.cs

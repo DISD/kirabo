@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<categories>
+  <category>
+    <Name>Love</Name>
+    <ImageUri>../Images/sunflower.jpg</ImageUri>
+  </category>
+  <category>
+    <Name>Kids</Name>
+    <ImageUri>../Images/white roses flowers wallpapers (8).png</ImageUri>
+  </category>
+  <category>
+    <Name>Weddings</Name>
+    <ImageUri>../Images/sunflower.jpg</ImageUri>
+  </category>
+  <category>
+    <Name>Aniversary</Name>
+    <ImageUri>../Images/white roses flowers wallpapers (8).png</ImageUri>
+  </category>
+  <category>
+    <Name>Christimas</Name>
+    <ImageUri>../Images/sunflower.jpg</ImageUri>
+  </category>
+</categories>

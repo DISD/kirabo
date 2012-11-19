@@ -1,49 +1,55 @@
 <Configuration>
   <RecentFiles>
     <RecentFiles>
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:CategorySelection.xaml.cs" caret="0" fromTop="0" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml" caret="0" fromTop="0" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml.cs" caret="1009" fromTop="26" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:App.xaml.cs" caret="4100" fromTop="25" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:App.xaml" caret="0" fromTop="0" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:App.xaml.cs" caret="4100" fromTop="13" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:Utilities/f:Converters.cs" caret="0" fromTop="0" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:Controls/f:CustomPanel.cs" caret="176" fromTop="6" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml" caret="2829" fromTop="25" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:ViewModels/f:ItemViewModel.cs" caret="797" fromTop="22" />
       <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:MainPage.xaml" caret="0" fromTop="0" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:MainPage.xaml.cs" caret="1694" fromTop="26" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:Utilities/f:Converters.cs" caret="304" fromTop="11" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:CategorySelection.xaml" caret="1392" fromTop="19" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:ViewModels/f:ItemViewModel.cs" caret="0" fromTop="0" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:SampleData/f:MainViewModelSampleData.xaml" caret="1761" fromTop="16" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:ViewModels/f:MainViewModel.cs" caret="2364" fromTop="21" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:SampleData/f:MainViewModelSampleData.xaml" caret="1802" fromTop="16" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:MainPage.xaml.cs" caret="1132" fromTop="38" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:ViewModels/f:MainViewModel.cs" caret="2318" fromTop="25" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml.cs" caret="572" fromTop="7" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xaml" caret="0" fromTop="0" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:CategorySelection.xaml" caret="0" fromTop="0" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:CategorySelection.xaml.cs" caret="1292" fromTop="14" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Categories.xml" caret="115" fromTop="4" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="61" fromTop="2" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xaml.cs" caret="1525" fromTop="18" />
     </RecentFiles>
     <RecentEdits>
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:MainPage.xaml" caret="2468" fromTop="20" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:MainPage.xaml" caret="1760" fromTop="29" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:MainPage.xaml" caret="0" fromTop="0" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:MainPage.xaml.cs" caret="1886" fromTop="26" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:ViewModels/f:ItemViewModel.cs" caret="1093" fromTop="18" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:ViewModels/f:ItemViewModel.cs" caret="1655" fromTop="50" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:ViewModels/f:MainViewModel.cs" caret="665" fromTop="0" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:ViewModels/f:MainViewModel.cs" caret="970" fromTop="7" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml.cs" caret="1001" fromTop="26" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:ViewModels/f:MainViewModel.cs" caret="2345" fromTop="26" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:ViewModels/f:MainViewModel.cs" caret="1710" fromTop="40" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:SampleData/f:MainViewModelSampleData.xaml" caret="1730" fromTop="14" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:CategorySelection.xaml" caret="2052" fromTop="24" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:CategorySelection.xaml" caret="2052" fromTop="29" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:CategorySelection.xaml" caret="123" fromTop="0" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:CategorySelection.xaml" caret="664" fromTop="9" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:CategorySelection.xaml" caret="2696" fromTop="21" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:CategorySelection.xaml" caret="2436" fromTop="19" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:ViewModels/f:MainViewModel.cs" caret="1802" fromTop="20" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:ViewModels/f:MainViewModel.cs" caret="2466" fromTop="39" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:Utilities/f:Converters.cs" caret="0" fromTop="0" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:Utilities/f:Converters.cs" caret="974" fromTop="29" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:Utilities/f:Converters.cs" caret="302" fromTop="10" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:CategorySelection.xaml" caret="1036" fromTop="16" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:MainPage.xaml.cs" caret="1694" fromTop="26" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:CategorySelection.xaml" caret="3601" fromTop="56" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:CategorySelection.xaml" caret="1205" fromTop="15" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:SampleData/f:MainViewModelSampleData.xaml" caret="1516" fromTop="12" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:ViewModels/f:MainViewModel.cs" caret="441" fromTop="14" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:ViewModels/f:MainViewModel.cs" caret="2364" fromTop="21" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xaml" caret="821" fromTop="13" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xaml.cs" caret="429" fromTop="7" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xaml.cs" caret="3091" fromTop="22" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xaml" caret="1889" fromTop="33" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:SampleData/f:MainViewModelSampleData.xaml" caret="1767" fromTop="14" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:ViewModels/f:MainViewModel.cs" caret="1988" fromTop="10" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:ViewModels/f:MainViewModel.cs" caret="2323" fromTop="25" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="437" fromTop="24" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="234" fromTop="6" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:MainPage.xaml.cs" caret="736" fromTop="27" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xaml.cs" caret="2074" fromTop="44" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xaml.cs" caret="1649" fromTop="29" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xaml.cs" caret="1879" fromTop="36" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xaml.cs" caret="2249" fromTop="50" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xaml.cs" caret="2221" fromTop="27" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xaml.cs" caret="2933" fromTop="40" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xaml.cs" caret="1576" fromTop="23" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xaml" caret="2433" fromTop="32" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xaml" caret="2741" fromTop="36" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xaml.cs" caret="3318" fromTop="22" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xaml.cs" caret="3623" fromTop="29" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xaml.cs" caret="1511" fromTop="20" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xaml.cs" caret="1270" fromTop="16" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="234" fromTop="8" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="228" fromTop="6" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="48" fromTop="1" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xaml.cs" caret="3723" fromTop="21" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="426" fromTop="14" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="605" fromTop="20" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xaml.cs" caret="940" fromTop="7" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -66,16 +72,135 @@
   </SettingsComponent>
   <CompletionStatisticsManager>
     <ItemStatistics item="CSharpCodeCompletionContext">
-      <Item value="this" priority="31" />
-      <Item value="new" priority="31" />
-      <Item value="ObservableCollection" priority="28" />
-      <Item value="ItemViewModel`0" priority="31" />
-      <Item value="using" priority="30" />
-      <Item value="Windows" priority="27" />
+      <Item value="this" priority="63" />
+      <Item value="new" priority="255" />
+      <Item value="ObservableCollection" priority="55" />
+      <Item value="ItemViewModel`0" priority="63" />
+      <Item value="using" priority="61" />
+      <Item value="Windows" priority="54" />
       <Item value="Data" priority="26" />
+      <Item value="System" priority="62" />
+      <Item value="IO" priority="22" />
+      <Item value="ObservableCollection&lt;ItemViewModel&gt;" priority="28" />
+      <Item value="public" priority="223" />
+      <Item value="private" priority="91" />
+      <Item value="categoryOfGifts" priority="26" />
+      <Item value="Gifts`0" priority="63" />
+      <Item value="CategorySelection`0" priority="63" />
+      <Item value="Panel`0" priority="31" />
+      <Item value="class" priority="63" />
+      <Item value="string" priority="287" />
+      <Item value="return" priority="95" />
+      <Item value="cateogryName" priority="63" />
+      <Item value="value" priority="63" />
+      <Item value="categoryImageUri" priority="63" />
+      <Item value="XDocument`0" priority="63" />
+      <Item value="var" priority="31" />
+      <Item value="from" priority="31" />
+      <Item value="loadCategoryData" priority="31" />
+      <Item value="select" priority="31" />
+      <Item value="Category" priority="28" />
+      <Item value="CategoryName" priority="31" />
+      <Item value="query" priority="258" />
+      <Item value="CategoryImageUri" priority="32" />
+      <Item value="categoryList" priority="63" />
+      <Item value="categoryData" priority="31" />
+      <Item value="SelectedCategory" priority="31" />
+      <Item value="App`0" priority="31" />
+      <Item value="static" priority="31" />
+      <Item value="Category`0" priority="32" />
+      <Item value="selectedIndex" priority="63" />
+      <Item value="Padding" priority="31" />
+      <Item value="BannerTextBlock" priority="31" />
+      <Item value="selectedCategory" priority="95" />
+      <Item value="selectedCategoryImageUri" priority="90" />
+      <Item value="ImageSource`0" priority="81" />
+      <Item value="Imaging" priority="53" />
+      <Item value="BitmapImage" priority="55" />
+      <Item value="Uri" priority="57" />
+      <Item value="BitmapImage`0" priority="31" />
+      <Item value="image" priority="63" />
+      <Item value="Application`0" priority="31" />
+      <Item value="CategoryImageBox" priority="31" />
+      <Item value="where" priority="127" />
+      <Item value="Gift" priority="29" />
+      <Item value="GiftName" priority="31" />
+      <Item value="GiftImageUri" priority="32" />
+      <Item value="GitDescription" priority="32" />
     </ItemStatistics>
     <ItemStatistics item="XamlCodeCompletionContext">
       <Item value="Resources" priority="11" />
+      <Item value="ListBox`0" priority="5" />
+      <Item value="Infinity" priority="5" />
+      <Item value="Horizontal" priority="11" />
+      <Item value="Width" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Kirabo.MainViewModel">
+      <Item value="CategoryOfGifts" priority="49" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Phone.Controls.Panorama">
+      <Item value="SelectedIndex" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Xml.Linq.XDocument">
+      <Item value="Load`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Linq.XDocument">
+      <Item value="Descendants`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Linq.XElement">
+      <Item value="Element`0" priority="138" />
+      <Item value="Attribute`0" priority="103" />
+      <Item value="Name" priority="50" />
+      <Item value="Descendants`0" priority="22" />
+      <Item value="FirstNode" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ListBox">
+      <Item value="ItemsSource" priority="26" />
+      <Item value="SelectedItem" priority="49" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.StackPanel">
+      <Item value="DataContext" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Kirabo.App">
+      <Item value="ViewModel" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Navigation.NavigationContext">
+      <Item value="QueryString" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Kirabo.CategorySelection+Category">
+      <Item value="CategoryName" priority="49" />
+      <Item value="CategoryImageUri" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.TextBlock">
+      <Item value="Text" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Kirabo.CategorySelection">
+      <Item value="Category`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Image">
+      <Item value="Source" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.Imaging.BitmapImage">
+      <Item value="SetSource`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Application">
+      <Item value="GetResourceStream`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Resources.StreamResourceInfo">
+      <Item value="Stream" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Linq.XName">
+      <Item value="Equals`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Linq.XAttribute">
+      <Item value="Value" priority="103" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Descendants`1" priority="49" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Linq.XNode">
+      <Item value="NextNode" priority="26" />
+      <Item value="Equals`0" priority="26" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>
