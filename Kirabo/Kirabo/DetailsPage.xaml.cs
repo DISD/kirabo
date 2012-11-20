@@ -29,7 +29,8 @@ namespace Kirabo
             if (NavigationContext.QueryString.TryGetValue("selectedItem", out selectedIndex))
             {
                 int index = int.Parse(selectedIndex);
-                DataContext = App.ViewModel.Gifts[index];
+                //DataContext = App.ViewModel.Gifts[index];
+                //DataContext = App.Current.Equals[index];
             }
         }
     }

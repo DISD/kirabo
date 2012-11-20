@@ -31,8 +31,9 @@ namespace Kirabo
                                               CategoryName = (string)query.Element("Name"),
                                               CategoryImageUri = (string)query.Element("ImageUri")
                                               };
+         categoryList.ItemsSource = categoryData;
 
-            categoryList.ItemsSource = categoryData;
+
         }
         private void CategorySelection_Loaded(object sender, System.Windows.RoutedEventArgs e)
         {

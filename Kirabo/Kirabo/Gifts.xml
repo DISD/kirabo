@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <gifts>
-  <category name="Love">
+  <giftCategory name="Love">
     <gift>      
         <Name>Pink rose</Name>
         <ImageUri>../Images/12_pink_rose.jpg</ImageUri>
@@ -11,12 +11,12 @@
       <ImageUri>../Images/VioletTulip.jpg</ImageUri>
       <Description>Purity</Description>
     </gift>
-  </category>
-  <category name="Kids">
+  </giftCategory>
+  <giftCategory name="Kids">
     <gift>
       <Name>Pumpper</Name>
       <ImageUri>../Images/VioletTulip.jpg</ImageUri>
       <Description>Good Sleep</Description>
     </gift>
-  </category>
+  </giftCategory>
 </gifts>

@@ -25,23 +25,7 @@ namespace Kirabo
             DataContext = App.ViewModel;
             this.Loaded += new System.Windows.RoutedEventHandler(GiftSelections_Loaded);
 
-            XDocument loadGiftData = XDocument.Load("Gifts.xml");
-            var giftData = from query in loadGiftData.Descendants("category").Descendants("gift")
-                          where  query.
-                               //let xAttribute = query.Attribute("name")
-                           //where xAttribute != null && xAttribute.Value == "Love"
-                      
-                               select new Gift()
-                               {
-                                   GiftName = (string)query.Element("Name"),
-                                   GiftImageUri = (string)query.Element("ImageUri"),
-                                   GitDescription = (string)query.Element("Description")
-                               };
-            
-            giftListBox.ItemsSource = giftData;
-
-            
-        }
+            }
 
         public class Gift
         {
@@ -90,6 +74,30 @@ namespace Kirabo
             Uri uri = new Uri(selectedCategoryImageUri, UriKind.Relative);
             BitmapImage imgSource = new BitmapImage(uri);
             CategoryImageBox.Source = imgSource;
+
+            //Load the gift items
+            XDocument loadGiftData = XDocument.Load("Gifts.xml");
+            var giftData = from gift in loadGiftData.Descendants("gift")
+                           where gift.Parent.Attribute("name").Value == selectedCategory
+                           select new Gift()
+                           {
+                               GiftName = (string)gift.Element("Name"),
+                               GiftImageUri = (string)gift.Element("ImageUri"),
+                               GitDescription = (string)gift.Element("Description")
+                               
+                           };
+
+            if(giftData.Any() == false)
+            {   
+                Gift emptyGift = new Gift();
+                emptyGift.GiftName = "No "+selectedCategory+" gifts found!";
+                emptyGift.GiftImageUri = "../Images/VioletTulip.jpg";
+
+                giftData = new[] {emptyGift};
+            }
+
+            giftListBox.ItemsSource = giftData;
+
         }
 
         private void MainListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
