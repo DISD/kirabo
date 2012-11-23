@@ -12,12 +12,11 @@
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
-    mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
-    shell:SystemTray.IsVisible="True"
-   xmlns:converters="clr-namespace:Kirabo.Utilities">
+    mc:Ignorable="d" shell:SystemTray.IsVisible="True"
+   xmlns:converters="clr-namespace:Kirabo.Utilities" Height="768" Width="480">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
-    <Grid x:Name="LayoutRoot" Background="Transparent">
+    <Grid x:Name="LayoutRoot" Background="#FFF3F6FA" Height="766">
         <Grid.Resources>
             <converters:IndexToEnabledConverter x:Name="IndexToEnabledConverter"/>
         </Grid.Resources>
@@ -27,64 +26,32 @@
         </Grid.RowDefinitions>
 
         <!--TitlePanel contains the name of the application and page title-->
-        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock x:Name="ApplicationTitle" Text="KIRABO" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock x:Name="PageTitle" Text="Category" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" FontSize="56" />
+        <StackPanel x:Name="TitlePanel" Margin="0,0,0,81" Height="59" Background="#FF24877E" Orientation="Horizontal" VerticalAlignment="Center">
+            <!--<TextBlock x:Name="ApplicationTitle" Text="KIRABO" Style="{StaticResource PhoneTextNormalStyle}"/>-->
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0" Background="#FFDB4F4F">
-            <!--<Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition Height="Auto"/>
-            </Grid.RowDefinitions>-->
-            
-            
-            <ListBox x:Name="categoryList" Margin="0,0,-12,0" SelectionChanged="CategoryList_SelectionChanged" Background="#00F53939">
+        <Grid x:Name="ContentPanel" Margin="0,103,0,12" Background="#FFF3F6FA" Grid.RowSpan="2">        
+            <ScrollViewer>
+                <ListBox x:Name="categoryList" Margin="0,0,0,-13" SelectionChanged="CategoryList_SelectionChanged" Background="#00F53939" Height="627" Width="463">
                 <ListBox.ItemTemplate>
-                    <DataTemplate>                     
-                        <StackPanel Orientation="Horizontal">
-                            <Image Source="{Binding CategoryImageUri}" Margin="8" VerticalAlignment="Top" Width="100" Height="100"/>
-                            <StackPanel>
-                                <TextBlock Text="{Binding CategoryName}" TextWrapping="Wrap"  Style="{StaticResource PhoneTextExtraLargeStyle}" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="8" Width="250"/>
-                            </StackPanel>
-                        </StackPanel>
-                    </DataTemplate>
+                    <DataTemplate>                        
+                        <StackPanel HorizontalAlignment="Left" Name="stackPanel3" VerticalAlignment="Top" Width="480" Orientation="Horizontal" Margin="0,10,0,0" Grid.RowSpan="1">
+                            <Border BorderBrush="#FFCBC3C3" BorderThickness="1" Height="100" Name="border1" Width="118" Margin="2,0,0,0">
+                                <Image  Source="{Binding CategoryImageUri}" Width="80" Height="80" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="8" Stretch="Uniform" />
+                            </Border>
+                            <TextBlock Height="56" Name="textBlock2" Text="{Binding CategoryName}"  Margin="8" Width="345" Foreground="#FF3E1919" FontSize="28" />
+                        </StackPanel>  
+                    </DataTemplate>       
                 </ListBox.ItemTemplate>
             </ListBox>
+            </ScrollViewer>
         </Grid>
+        <StackPanel Height="44" Name="stackPanel1" Margin="0,60,0,36" Background="#FFE4E4E4" Orientation="Horizontal" HorizontalAlignment="Left" Width="480">
+            <TextBlock Height="31" Name="textBlock1" Text="    Gift Categories" Foreground="#FFAA8181" FontStyle="Normal" FontWeight="Normal" FontStretch="Condensed" FontSize="24" FontFamily="Georgia" Width="195" />
+        </StackPanel>
+        <StackPanel Height="59" Name="stackPanel2" Margin="12,0,147,81" Orientation="Horizontal">
+            <Image Height="48" Name="image1" Stretch="None" Width="200" Source="/Kirabo;component/Images/banner-text1.png" />
+        </StackPanel>   
     </Grid>
- 
-    <!--Sample code showing usage of ApplicationBar-->
-    <!--<phone:PhoneApplicationPage.ApplicationBar>
-        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
-            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
-            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
-            <shell:ApplicationBar.MenuItems>
-                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
-                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
-            </shell:ApplicationBar.MenuItems>
-        </shell:ApplicationBar>
-    </phone:PhoneApplicationPage.ApplicationBar>-->
-
-
-    <!--<controls:Panorama x:Name="categoryList" Grid.ColumnSpan="2" ItemsSource="{Binding Path=CategoryOfGifts}">
-                <controls:Panorama.ItemTemplate>
-            
-                    <DataTemplate>
-                        <Image Source="{Binding ItemImage}" HorizontalAlignment="Center"/>
-                    </DataTemplate>
-                </controls:Panorama.ItemTemplate>
-                <controls:Panorama.HeaderTemplate>
-                    <DataTemplate>
-                        <TextBlock Text="{Binding ItemName}" TextWrapping="Wrap" 
-                                       HorizontalAlignment="Center"
-                                       Style="{StaticResource PhoneTextExtraLargeStyle}"/>
-                    </DataTemplate>
-                </controls:Panorama.HeaderTemplate>
-            </controls:Panorama>-->
-   
-    <!--<Button x:Name="cmdSelectCrust" Content="Select a category" HorizontalAlignment="Center" 
-                    IsEnabled="{Binding SelectedIndex, ElementName=MainListBox, Converter={StaticResource IndexToEnabledConverter}}" Margin="46,531,74,23" Width="336" Grid.ColumnSpan="2" Click="cmdSelectCrust_Click" />-->
-
-</phone:PhoneApplicationPage>
+ </phone:PhoneApplicationPage>

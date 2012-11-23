@@ -47,7 +47,7 @@ namespace Kirabo
 
             }
 
-            public string GitDescription
+            public string GiftDescription
             {
                 get { return giftDescription; }
                 set { giftDescription = value; }
@@ -76,16 +76,7 @@ namespace Kirabo
             CategoryImageBox.Source = imgSource;
 
             //Load the gift items
-            XDocument loadGiftData = XDocument.Load("Gifts.xml");
-            var giftData = from gift in loadGiftData.Descendants("gift")
-                           where gift.Parent.Attribute("name").Value == selectedCategory
-                           select new Gift()
-                           {
-                               GiftName = (string)gift.Element("Name"),
-                               GiftImageUri = (string)gift.Element("ImageUri"),
-                               GitDescription = (string)gift.Element("Description")
-                               
-                           };
+            var giftData = retrieveGiftData(selectedCategory, "");
 
             if(giftData.Any() == false)
             {   
@@ -100,6 +91,42 @@ namespace Kirabo
 
         }
 
+        private IEnumerable<Gift> retrieveGiftData(string selectedCategoryItem, string searchItem)
+        {
+            XDocument loadGiftData = XDocument.Load("Gifts.xml");
+            IEnumerable<Gift> giftData = null;
+            if(searchItem.Equals(""))
+            {
+                giftData = from gift in loadGiftData.Descendants("gift")
+                               where gift.Parent.Attribute("name").Value == selectedCategoryItem
+                               select new Gift()
+                               {
+                                   GiftName = convertFirstElementToUpperCase((string)gift.Element("Name")),
+                                   GiftImageUri = convertFirstElementToUpperCase((string)gift.Element("ImageUri")),
+                                   GiftDescription = convertFirstElementToUpperCase((string)gift.Element("Description"))
+                               };
+            }else
+            {
+                giftData = from gift in loadGiftData.Descendants("gift")
+                           where gift.Parent.Attribute("name").Value == selectedCategoryItem && gift.Element("Name").Value.Contains(searchItem.ToLower())
+                           select new Gift()
+                           {
+                               GiftName = convertFirstElementToUpperCase((string)gift.Element("Name")),
+                               GiftImageUri = convertFirstElementToUpperCase((string)gift.Element("ImageUri")),
+                               GiftDescription = convertFirstElementToUpperCase((string)gift.Element("Description"))
+                           };
+            }
+
+          
+            return giftData;
+        }
+
+        private string convertFirstElementToUpperCase(string text)
+        {
+
+            return char.ToUpper(text[0]) + text.Substring(1);
+        }
+
         private void MainListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             // If selected index is -1 (no selection) do nothing
@@ -107,7 +134,8 @@ namespace Kirabo
                 return;
 
             // Navigate to the new page
-            NavigationService.Navigate(new Uri("/DetailsPage.xaml?selectedItem=" + giftListBox.SelectedIndex, UriKind.Relative));
+            NavigationService.Navigate(new Uri("/DetailsPage.xaml?selectedGiftImageUri=" + ((Gift)(giftListBox.SelectedItem)).GiftImageUri + "&selectedGift=" + ((Gift)(giftListBox.SelectedItem)).GiftName + "&selectedGiftDescription=" + ((Gift)(giftListBox.SelectedItem)).GiftDescription
+                + "&selectedGiftCategory=" + selectedCategory + "&selectedGiftCategoryImageUri=" + selectedCategoryImageUri, UriKind.Relative));
 
             // Reset selected index to -1 (no selection)
             giftListBox.SelectedIndex = -1;
@@ -115,6 +143,26 @@ namespace Kirabo
 
 
         public static string SelectedCategoryItem { get; set; }
+
+       private void button1_Click_2(object sender, RoutedEventArgs e)
+        {
+            var giftData = retrieveGiftData(selectedCategory, searchTextBox.Text);
+
+            if (giftData.Any() == false)
+            {
+                Gift emptyGift = new Gift();
+                emptyGift.GiftName = "No " + searchTextBox.Text + " gifts found!";
+                emptyGift.GiftImageUri = "../Images/VioletTulip.jpg";
+
+                giftData = new[] { emptyGift };
+            }
+
+            giftListBox.ItemsSource = giftData;
+        }
+
+        
+
+        
 
     }
 }

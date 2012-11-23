@@ -43,5 +43,22 @@ namespace Kirabo
         {
 
         }
+
+        private void PhoneApplicationPage_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void image1_ImageFailed_1(object sender, ExceptionRoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/CategorySelection.xaml", UriKind.Relative));
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/CategorySelection.xaml", UriKind.Relative));
+        }
+
+        
     }
 }

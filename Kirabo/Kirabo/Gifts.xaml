@@ -16,52 +16,49 @@
     xmlns:local="clr-namespace:Kirabo.Controls">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
-    <Grid x:Name="LayoutRoot" Background="Transparent">
+    <Grid x:Name="LayoutRoot" Background="#FFF3F6FA" Height="766">
+        <Grid.Resources>
+         
+        </Grid.Resources>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <!--TitlePanel contains the name of the application and page title-->
-        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock x:Name="PageTitle" Text="Gifts" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" />
+        <StackPanel x:Name="TitlePanel" Margin="0,0,0,81" Height="59" Background="#FF24877E" Orientation="Horizontal" VerticalAlignment="Center">
+            <!--<TextBlock x:Name="ApplicationTitle" Text="KIRABO" Style="{StaticResource PhoneTextNormalStyle}"/>-->
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <StackPanel x:Name="SelectedCategory">
-                <StackPanel Orientation="Horizontal">
-                    <Image Margin="8" VerticalAlignment="Top" Width="40" Height="50" Name="CategoryImageBox" Source=""/>
-                    <StackPanel>
-                        <TextBlock Name="BannerTextBlock" HorizontalAlignment="Center" VerticalAlignment="Top" FontWeight="Bold" Height="45" Width="197" FontSize="32" />
-                    <!--<TextBlock Text="{Binding CategoryName}" TextWrapping="Wrap"  Style="{StaticResource PhoneTextExtraLargeStyle}" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="8" Width="250"/>-->
-                    </StackPanel>
-                </StackPanel>
-                
-                <ListBox x:Name="giftListBox"  SelectionChanged="MainListBox_SelectionChanged" Background="#00F53939">
-                    <ListBox.ItemTemplate>
-                        <DataTemplate>
-                            <StackPanel Margin="0,0,0,17" Width="432">
-                                <TextBlock Text="{Binding GiftName}" TextWrapping="Wrap" Style="{StaticResource PhoneTextExtraLargeStyle}" />
-                            </StackPanel>
-                        </DataTemplate>
-                    </ListBox.ItemTemplate>
-                </ListBox>
+        <Grid x:Name="ContentPanel" Margin="0,103,0,12" Background="#FFF3F6FA" Grid.RowSpan="2">
+            <StackPanel Height="67" HorizontalAlignment="Left" Name="stackPanel3" VerticalAlignment="Top" Width="480" Orientation="Horizontal">
+                <TextBox Height="78" Name="searchTextBox" Text="" Width="360" FontSize="26" FontFamily="Comic Sans MS" Tag="Search gift" BorderBrush="#BFAEAECE" Margin="6,0,0,0"  />
+                 <Button Height="63" Name="button1" Click="button1_Click_2" Width="69" BorderThickness="0" BorderBrush="#FF520303" Padding="0">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Kirabo;component/Images/search-icon.png" Stretch="Uniform" />
+                    </Button.Background>
+                </Button>
             </StackPanel>
+            <ListBox Height="573" Name="giftListBox" Width="460" HorizontalContentAlignment="Left" VerticalAlignment="Top" SelectionChanged="MainListBox_SelectionChanged" Margin="6,72,14,0">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Margin="0,0,0,17" Width="432">
+                            <TextBlock Text="{Binding GiftName}" TextWrapping="Wrap" Style="{StaticResource PhoneTextExtraLargeStyle}" Foreground="Black" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
         </Grid>
-        
+        <StackPanel Height="44" Name="stackPanel1" Margin="0,60,0,36" Background="#FFE4E4E4" Orientation="Horizontal" HorizontalAlignment="Left" Width="480">
+            <TextBlock Height="31" Name="textBlock1" Text="    Gift Categories" Foreground="#FFAA8181" FontStyle="Normal" FontWeight="Normal" FontStretch="Condensed" FontSize="24" FontFamily="Georgia" Width="195" />
+            <Image Height="22" Name="image2" Stretch="None" Width="17" Source="/Kirabo;component/Images/next.png" VerticalAlignment="Center" HorizontalAlignment="Left" />
+            <TextBlock Height="24" Name="BannerTextBlock" Text="" Foreground="#FFAA8181" FontFamily="Georgia" Margin="3,0,0,0" />
+            <Image Height="25" Name="CategoryImageBox" Stretch="Fill" Width="29" Margin="4,0,0,0" Source=""/>
+        </StackPanel>
+        <StackPanel Height="59" Name="stackPanel2" Margin="12,0,147,81" Orientation="Horizontal">
+            <Image Height="48" Name="image1" Stretch="None" Width="200" Source="/Kirabo;component/Images/banner-text1.png" />
+        </StackPanel>
     </Grid>
- 
-    <!--Sample code showing usage of ApplicationBar-->
-    <!--<phone:PhoneApplicationPage.ApplicationBar>
-        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
-            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
-            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
-            <shell:ApplicationBar.MenuItems>
-                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
-                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
-            </shell:ApplicationBar.MenuItems>
-        </shell:ApplicationBar>
-    </phone:PhoneApplicationPage.ApplicationBar>-->
 
 </phone:PhoneApplicationPage>

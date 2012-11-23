@@ -2,15 +2,15 @@
 <categories>
   <category>
     <Name>Love</Name>
-    <ImageUri>../Images/sunflower.jpg</ImageUri>
+    <ImageUri>../Images/love_icon.png</ImageUri>
   </category>
   <category>
     <Name>Kids</Name>
-    <ImageUri>../Images/white roses flowers wallpapers (8).png</ImageUri>
+    <ImageUri>../Images/kids_icon.png</ImageUri>
   </category>
   <category>
-    <Name>Weddings</Name>
-    <ImageUri>../Images/sunflower.jpg</ImageUri>
+    <Name>Wedding</Name>
+    <ImageUri>../Images/wedding_icon.png</ImageUri>
   </category>
   <category>
     <Name>Aniversary</Name>
@@ -18,6 +18,6 @@
   </category>
   <category>
     <Name>Christimas</Name>
-    <ImageUri>../Images/sunflower.jpg</ImageUri>
+    <ImageUri>../Images/christmas_icon.png</ImageUri>
   </category>
 </categories>
