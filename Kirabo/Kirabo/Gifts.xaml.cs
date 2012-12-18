@@ -1,14 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Shapes;
 using System.Xml.Linq;
 using Microsoft.Phone.Controls;
 using System.Windows.Navigation;
@@ -57,16 +52,18 @@ namespace Kirabo
 
         private void GiftSelections_Loaded(object sender, System.Windows.RoutedEventArgs e)
         {
-            if (!App.ViewModel.IsDataLoaded)
-            {
-                App.ViewModel.LoadData();
-            }
+           if (!App.ViewModel.IsDataLoaded)
+           {
+               App.ViewModel.LoadData();
+           }
         }
 
+       
         private string selectedCategoryImageUri = "";
         private string selectedCategory = "";
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+            
             selectedCategoryImageUri = NavigationContext.QueryString["selectedCategoryImageUri"];
             selectedCategory = NavigationContext.QueryString["selectedCategory"];
 
@@ -75,6 +72,10 @@ namespace Kirabo
             BitmapImage imgSource = new BitmapImage(uri);
             CategoryImageBox.Source = imgSource;
 
+
+            
+           
+           
             //Load the gift items
             var giftData = retrieveGiftData(selectedCategory, "");
 
@@ -129,16 +130,16 @@ namespace Kirabo
 
         private void MainListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            // If selected index is -1 (no selection) do nothing
+           
             if (giftListBox.SelectedIndex == -1)
                 return;
 
-            // Navigate to the new page
+         
             NavigationService.Navigate(new Uri("/DetailsPage.xaml?selectedGiftImageUri=" + ((Gift)(giftListBox.SelectedItem)).GiftImageUri + "&selectedGift=" + ((Gift)(giftListBox.SelectedItem)).GiftName + "&selectedGiftDescription=" + ((Gift)(giftListBox.SelectedItem)).GiftDescription
                 + "&selectedGiftCategory=" + selectedCategory + "&selectedGiftCategoryImageUri=" + selectedCategoryImageUri, UriKind.Relative));
 
-            // Reset selected index to -1 (no selection)
-            giftListBox.SelectedIndex = -1;
+           
+           giftListBox.SelectedIndex = -1;
         }
 
 
@@ -159,6 +160,20 @@ namespace Kirabo
 
             giftListBox.ItemsSource = giftData;
         }
+
+       private void searchTextBox_KeyUp(object sender, System.Windows.Input.KeyEventArgs e)
+       {
+           var giftData = retrieveGiftData(selectedCategory, searchTextBox.Text);
+           if (e.Key == Key.Enter)
+           {
+               Gift emptyGift = new Gift();
+               emptyGift.GiftName = "No " + searchTextBox.Text + " gifts found!";
+               emptyGift.GiftImageUri = "../Images/VioletTulip.jpg";
+
+               giftData = new[] {emptyGift};
+           }
+           giftListBox.ItemsSource = giftData;
+       }
 
         
 

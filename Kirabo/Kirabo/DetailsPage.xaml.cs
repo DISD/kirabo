@@ -13,8 +13,8 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using System.Windows.Media.Imaging;
 using System.Xml.Linq;
+using Microsoft.Phone.Shell;
 using Microsoft.Phone.Tasks;
-using System.Collections.Generic;
 
 namespace Kirabo
 {
@@ -24,8 +24,11 @@ namespace Kirabo
         public DetailsPage()
         {
             InitializeComponent();
-           
+
+            
         }
+
+       
 
         public class Meaning
         {
@@ -98,48 +101,80 @@ namespace Kirabo
          
        
 
-        private void button1_Click_1(object sender, RoutedEventArgs e)
-        {
-            MessageBoxResult result = MessageBox.Show("Send gift as SMS?", "Kirabo Infobox", MessageBoxButton.OKCancel);
-            if (result == MessageBoxResult.OK)
-            {
-                // sms
-                SmsComposeTask composeSMS = new SmsComposeTask();
-                composeSMS.Body = "Hello i send you a gift for " + BannerTextBlock.Text +", "+ GiftTitle.Text + " meaning " + textBlock2.Text;
-
-                composeSMS.Show();
-            }
-        }
+        //private void button1_Click_1(object sender, RoutedEventArgs e)
+        //{
+        //    //MessageBoxResult result = MessageBox.Show("Send gift as SMS?", "Kirabo Infobox", MessageBoxButton.OKCancel);
+        //    //if (result == MessageBoxResult.OK)
+        //    //{
+        //        // sms
+        //        SmsComposeTask composeSMS = new SmsComposeTask();
+        //        //composeSMS.Body = "Hello i send you a gift for " + BannerTextBlock.Text +", "+ GiftTitle.Text + " meaning " + textBlock2.Text;
+        //        composeSMS.Body = "Hello i send you aVirtual Gift of " + GiftTitle.Text + " meaning " + textBlock2.Text;
+        //        composeSMS.Show();
+        //    //}
+        //}
 
         private void button2_Click(object sender, RoutedEventArgs e)
         {
             //EmailAddressChooserTask selectEmailAddress = new EmailAddressChooserTask();
             //selectEmailAddress.Completed += new EventHandler<EmailResult>(emailAddressChooserTask_Completed);
-          
+
             //selectEmailAddress.Show();
             //MessageBox.Show(email);
 
-            MessageBoxResult result = MessageBox.Show("Send gift as Email?", "Kirabo Infobox", MessageBoxButton.OKCancel);
-            if (result == MessageBoxResult.OK)
-            {
-                EmailComposeTask emailcomposer = new EmailComposeTask();
-                emailcomposer.To = emailTextBox.Text;
-                emailcomposer.Body = "Hello i send you a gift for " + BannerTextBlock.Text + ", " + GiftTitle.Text + " meaning " + textBlock2.Text;
-                emailcomposer.Subject = "Kirabo (Gift): ";
-                emailcomposer.Show();
+            //MessageBoxResult result = MessageBox.Show("Send gift as Email?", "Kirabo Infobox", MessageBoxButton.OKCancel);
+            //if (result == MessageBoxResult.OK)
+            //{
+            //    EmailComposeTask emailcomposer = new EmailComposeTask();
+            //    emailcomposer.To = emailTextBox.Text;
+            //    emailcomposer.Body = "Hello i send you a gift for " + BannerTextBlock.Text + ", " + GiftTitle.Text + " meaning " + textBlock2.Text;
+            //    emailcomposer.Subject = "Kirabo (Gift): ";
+            //    emailcomposer.Show();
 
 
-            }
+            //}
+
+           
+
         }
 
-
-        private string email = "";
-        private void emailAddressChooserTask_Completed(object sender, EmailResult e)
+        private void detailsImage_ImageFailed(object sender, ExceptionRoutedEventArgs e)
         {
-            if(e.TaskResult == TaskResult.OK)
-            {
-                email = e.Email;
-            }
+
+        }
+
+        
+
+
+        //private string email = "";
+        //private void emailAddressChooserTask_Completed(object sender, EmailResult e)
+        //{
+        //    if(e.TaskResult == TaskResult.OK)
+        //    {
+        //        email = e.Email;
+        //    }
+        //}
+
+        private void MenuItem1_Click(object sender, EventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/AboutPage.xaml", UriKind.Relative));
+        }
+
+        private void Sms_Click(object sender, EventArgs e)
+        {
+            SmsComposeTask composeSMS = new SmsComposeTask();
+            //composeSMS.Body = "Hello i send you a gift for " + BannerTextBlock.Text +", "+ GiftTitle.Text + " meaning " + textBlock2.Text;
+            composeSMS.Body = "Hello i send you aVirtual Gift of " + GiftTitle.Text + " meaning " + textBlock2.Text;
+            composeSMS.Show();
+        }
+
+        private void BackButton_Click(object sender, EventArgs e)
+        {
+
+            //MessageBox.Show("Back Application Bar Is Clicked!!!");
+            NavigationService.Navigate(new Uri("/Gifts.xaml?selectedCategory=" + selectedGiftCategory + "&selectedCategoryImageUri=" + selectedGiftCategoryImageUri + "&selectedGift=" + selectedGift +
+                "&selectedGiftDescription=" + selectedGiftDescription + "&selectedGiftImageUri=" + selectedGiftImageUri , UriKind.Relative));
+        //    Response.Redirect("~/Gifts.xam");selectedGiftCategory
         }
     }
 }

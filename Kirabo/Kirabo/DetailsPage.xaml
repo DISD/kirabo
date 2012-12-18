@@ -12,62 +12,63 @@
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait"  Orientation="Portrait" 
     shell:SystemTray.IsVisible="True"
-    xmlns:local="clr-namespace:Kirabo.Controls" d:DesignHeight="768" d:DesignWidth="480">
+    xmlns:local="clr-namespace:Kirabo.Controls" d:DesignHeight="696" d:DesignWidth="480">
 
-    <Grid x:Name="LayoutRoot" Background="#FFF3F6FA" Height="766" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <Grid x:Name="LayoutRoot" Height="696" HorizontalAlignment="Center" VerticalAlignment="Center" Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="224" />
+            <ColumnDefinition Width="256" />
+        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <!--TitlePanel contains the name of the application and page title-->
-        <StackPanel x:Name="TitlePanel" Margin="0,0,0,81" Height="59" Background="#FF24877E" Orientation="Horizontal" VerticalAlignment="Center">
+        <StackPanel x:Name="TitlePanel" Margin="0,0,0,81" Height="59" Background="#FF24877E" Orientation="Horizontal" VerticalAlignment="Center" Grid.ColumnSpan="2">
             <!--<TextBlock x:Name="ApplicationTitle" Text="KIRABO" Style="{StaticResource PhoneTextNormalStyle}"/>-->
         </StackPanel>
-        <StackPanel Height="44" Name="stackPanel1" Margin="0,60,0,36" Background="#FFE4E4E4" Orientation="Horizontal" HorizontalAlignment="Left" Width="480">
+        <StackPanel Height="44" Name="stackPanel1" Margin="0,60,0,36" Background="#FFE4E4E4" Orientation="Horizontal" HorizontalAlignment="Left" Width="480" Grid.ColumnSpan="2">
             <TextBlock Height="31" Name="textBlock1" Text="    Gift Categories" Foreground="#FFAA8181" FontStyle="Normal" FontWeight="Normal" FontStretch="Condensed" FontSize="20" FontFamily="Georgia" Width="157" />
             <Image Height="22" Name="image2" Stretch="None" Width="17" Source="/Kirabo;component/Images/next.png" VerticalAlignment="Center" HorizontalAlignment="Left" />
             <TextBlock Height="24" Name="BannerTextBlock" Text="" Foreground="#FFAA8181" FontFamily="Georgia" Margin="3,0,0,0" />
             <Image Height="25" Name="CategoryImageBox" Stretch="Fill" Width="29" Margin="4,0,0,0" Source=""/>
             <Image Height="22" Name="image3" Source="/Kirabo;component/Images/next.png" Stretch="None" Width="17" Margin="5,0,0,0" />
         </StackPanel>
-        <StackPanel Height="59" Name="stackPanel2" Margin="12,0,147,81" Orientation="Horizontal">
+        <StackPanel Height="59" Name="stackPanel2" Margin="12,0,147,81" Orientation="Horizontal" Grid.ColumnSpan="2">
             <Image Height="48" Name="image1" Stretch="None" Width="200" Source="/Kirabo;component/Images/banner-text1.png" />
         </StackPanel>
-        <StackPanel Height="78" HorizontalAlignment="Left" Margin="12,103,0,0" Name="stackPanel3" VerticalAlignment="Top" Width="461" Grid.RowSpan="2" Orientation="Horizontal">
+        <StackPanel Height="78" HorizontalAlignment="Left" Margin="12,103,0,0" Name="stackPanel3" VerticalAlignment="Top" Width="461" Grid.RowSpan="2" Orientation="Horizontal" Grid.ColumnSpan="2">
             <TextBlock x:Name="GiftTitle" Text="{Binding GiftName}" Style="{StaticResource PhoneTextTitle1Style}" Height="41" Width="437" Foreground="#FF045FA7" FontSize="32" FontFamily="Georgia" IsHitTestVisible="True" TextAlignment="Center" />
         </StackPanel>
-        <StackPanel Grid.Row="1" Height="213" HorizontalAlignment="Left" Margin="14,47,0,0" Name="stackPanel4" VerticalAlignment="Top" Width="460">
-            <StackPanel Height="211" Name="stackPanel7" Width="254" HorizontalAlignment="Right">
-                <TextBlock Height="30" Name="textBlock3" Text="Gift meaning:" Width="247" Foreground="#FF516F36" HorizontalAlignment="Left" FontFamily="Georgia" FontSize="26" />
-                <TextBlock Height="166" Name="textBlock2" Text="{Binding GiftDescription}" Width="240" Foreground="Black" FontFamily="Georgia" TextAlignment="Left" Margin="0,10,0,0" />
-            </StackPanel>
+        <StackPanel Grid.Row="1" Height="235" HorizontalAlignment="Center" Margin="17,47,3,0" Name="stackPanel4" VerticalAlignment="Top" Width="460" Grid.ColumnSpan="2"></StackPanel>
+        <StackPanel Name="stackPanel6" Width="443" Margin="18,47,19,274" Grid.Row="1" HorizontalAlignment="Center" Grid.ColumnSpan="2">
+            <Image Height="206" Name="detailsImage" Stretch="Uniform" Width="317" Source="" ImageFailed="detailsImage_ImageFailed" HorizontalAlignment="Center" />
         </StackPanel>
-        <StackPanel Grid.Row="1" Height="260" HorizontalAlignment="Left" Margin="17,278,0,0" Name="stackPanel5" VerticalAlignment="Top" Width="456" Orientation="Vertical">
-            <StackPanel Height="81" Name="stackPanel8" Width="452" HorizontalAlignment="Center" VerticalAlignment="Top" Orientation="Horizontal"></StackPanel>
+        <StackPanel Name="stackPanel7" Width="447" HorizontalAlignment="Right" Margin="0,288,19,12" Grid.Row="1" Grid.ColumnSpan="2">
+            <TextBlock Height="30" Name="textBlock3" Text="Gift meaning:" Width="247" Foreground="#FF516F36" HorizontalAlignment="Left" FontFamily="Georgia" FontSize="26" />
+            <TextBlock Height="173" Name="textBlock2" Text="{Binding GiftDescription}" Width="382" Foreground="Black" FontFamily="Georgia" TextAlignment="Left" Margin="0,10,0,0" TextWrapping="Wrap" />
         </StackPanel>
-        <StackPanel Name="stackPanel6" Width="200" Margin="18,47,262,366" Grid.Row="1">
-            <Image Height="210" Name="detailsImage" Stretch="Fill" Width="190" Source="" />
-        </StackPanel>
-        <StackPanel Name="stackPanel11" Orientation="Horizontal" Width="452" Margin="17,354,11,164" Grid.Row="1">
-            <StackPanel Height="96" Margin="3,0,0,0" Name="stackPanel12" Width="366" Orientation="Horizontal">
-                <Image Height="66" Name="image5" Stretch="Uniform" Width="70" Source="/Kirabo;component/Images/sendemail_icon.png" Visibility="Collapsed" />
-                <TextBox Height="66" Name="emailTextBox" Text="" Width="284" Foreground="#FF524F4F" BorderBrush="#BF000000" Visibility="Collapsed" />
-            </StackPanel>
-        </StackPanel>
-        <StackPanel Height="74" Name="stackPanel9" Width="223" Margin="27,278,0,274" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Horizontal" Grid.Row="1">
-            <Image Height="66" Name="image4" Stretch="Uniform" Width="70" Source="/Kirabo;component/Images/sendsms_icon.png" HorizontalAlignment="Left" />
-            <Button Content="Send" Height="71" Name="button1" Width="127" Foreground="#FF170505" HorizontalContentAlignment="Left" VerticalAlignment="Top" Click="button1_Click_1" />
-        </StackPanel>
-        <Button Content="Button" Grid.Row="1" Height="100" HorizontalAlignment="Left" Margin="43,510,0,0" Name="button2" VerticalAlignment="Top" Width="243" BorderBrush="#FF9D4242" Foreground="#FFB71A1A" Click="button2_Click" />
-
-        <!--<phone:PhoneApplicationPage.>
+        <!--<phone:PhoneApplicationPage.ApplicationBar>
             <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
                 <shell:ApplicationBarIconButton IconUri="/Images/appbar/email.png" x:Name="email" Click="email_Click" Text="Send Email"/>
                 <shell:ApplicationBarIconButton IconUri="/Images/appbar/fb.png" x:Name="fb" Click="fb_Click" Text="Facebook"/>
                 <shell:ApplicationBarIconButton IconUri="/Images/appbar/twitter.png" x:Name="twitter" Click="twitter_Click" Text="Twitter"/>
             </shell:ApplicationBar>
-        </phone:PhoneApplicationPage.ApplicationBar>-->
-    
+        </phone:PhoneApplicationPage.ApplicationBar>-->      
+
     </Grid>
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar  IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar.back.rest.png" Text="Back" Click="BackButton_Click"/>
+            <shell:ApplicationBarIconButton IconUri="./Images/appbar.feature.email.rest.png" Text="sms" Click="Sms_Click"/>
+           
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Click="MenuItem1_Click"  Text="About"/>
+                
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
 </phone:PhoneApplicationPage>
+
+

@@ -1,22 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Net;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 using System.Windows.Navigation;
 using System.Xml.Linq;
+using System.Windows.Controls.Primitives;
+using System.ComponentModel;
+using System.Threading;
 
 namespace Kirabo
 {
     public partial class CategorySelection : PhoneApplicationPage
     {
+        private Popup popup;
+        private BackgroundWorker backroungWorker;
+        // Constructor
         public CategorySelection()
         {
             InitializeComponent();
@@ -24,6 +23,7 @@ namespace Kirabo
             DataContext = App.ViewModel;
             this.Loaded += new System.Windows.RoutedEventHandler(CategorySelection_Loaded);
 
+            
             XDocument loadCategoryData = XDocument.Load("Categories.xml");
             var categoryData = from query in loadCategoryData.Descendants("category")
                                select new Category
@@ -32,23 +32,35 @@ namespace Kirabo
                                               CategoryImageUri = (string)query.Element("ImageUri")
                                               };
          categoryList.ItemsSource = categoryData;
+         
+            ShowPopup();
+            ApplicationBar.IsVisible = false;
 
+            SupportedOrientations = SupportedPageOrientation.Portrait;
 
+            Application.Current.RootVisual = this;
         }
+
         private void CategorySelection_Loaded(object sender, System.Windows.RoutedEventArgs e)
         {
             if (!App.ViewModel.IsDataLoaded)
             {
                 App.ViewModel.LoadData();
             }
+
+           
         }
+        
         private void CategoryList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            
             // If selected index is -1 (no selection) do nothing
             if (categoryList.SelectedIndex == -1)
                 return;
             //Gifts.
            // Navigate to the new page
+           
+
             NavigationService.Navigate(new Uri("/Gifts.xaml?selectedCategoryImageUri=" + ((Category)(categoryList.SelectedItem)).CategoryImageUri + "&selectedCategory="+((Category)(categoryList.SelectedItem)).CategoryName, UriKind.Relative));
 
             // Reset selected index to -1 (no selection)
@@ -80,5 +92,44 @@ namespace Kirabo
             
         }
 
+        private void ShowPopup()
+        {
+            this.popup = new Popup();
+            this.popup.Child = new MainPage();
+            this.popup.IsOpen = true;
+            StartLoadingData();
+        }
+        private void StartLoadingData()
+        {
+            backroungWorker = new BackgroundWorker();
+            backroungWorker.DoWork += new DoWorkEventHandler(backroungWorker_DoWork);
+            backroungWorker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(backroungWorker_RunWorkerCompleted);
+            backroungWorker.RunWorkerAsync();
+        }
+
+        void backroungWorker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+            this.Dispatcher.BeginInvoke(() =>
+            {
+                this.popup.IsOpen = false;
+
+            }
+            );
+        }
+
+        void backroungWorker_DoWork(object sender, DoWorkEventArgs e)
+        {
+            // Do some data loading on a background
+            // We'll just sleep for the demo
+            Thread.Sleep(3000);
+        }
+
+
+        private void MenuItem1_Click(object sender, EventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/AboutPage.xaml", UriKind.Relative));
+        }
+
+        
     }
 }

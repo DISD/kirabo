@@ -1,23 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <categories>
   <category>
-    <Name>Love</Name>
-    <ImageUri>../Images/love_icon.png</ImageUri>
-  </category>
-  <category>
-    <Name>Kids</Name>
-    <ImageUri>../Images/kids_icon.png</ImageUri>
+    <Name>Christmas</Name>
+    <ImageUri>../Images/christmas_icon.png</ImageUri>
   </category>
   <category>
     <Name>Wedding</Name>
     <ImageUri>../Images/wedding_icon.png</ImageUri>
   </category>
   <category>
-    <Name>Aniversary</Name>
-    <ImageUri>../Images/white roses flowers wallpapers (8).png</ImageUri>
+    <Name>Love</Name>
+    <ImageUri>../Images/love_icon.png</ImageUri>
   </category>
   <category>
-    <Name>Christimas</Name>
-    <ImageUri>../Images/christmas_icon.png</ImageUri>
+    <Name>Birthday</Name>
+    <ImageUri>../Images/birthday_icon.png</ImageUri>
   </category>
+  <category>
+    <Name>Kids</Name>
+    <ImageUri>../Images/kids_icon.png</ImageUri>
+  </category>
+  
+  <category>
+    <Name>Anniversary</Name>
+    <ImageUri>../Images/two-hearts.png</ImageUri>
+  </category>
+  
+  
+  
 </categories>

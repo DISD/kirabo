@@ -33,22 +33,28 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Margin="0,103,0,12" Background="#FFF3F6FA" Grid.RowSpan="2">
             <StackPanel Height="67" HorizontalAlignment="Left" Name="stackPanel3" VerticalAlignment="Top" Width="480" Orientation="Horizontal">
-                <TextBox Height="78" Name="searchTextBox" Text="" Width="360" FontSize="26" FontFamily="Comic Sans MS" Tag="Search gift" BorderBrush="#BFAEAECE" Margin="6,0,0,0"  />
+                <TextBox Height="78" Name="searchTextBox" Text="" Width="360" FontSize="26" FontFamily="Comic Sans MS" Tag="Search gift" BorderBrush="#BFAEAECE" Margin="6,0,0,0" KeyUp="searchTextBox_KeyUp" />
                  <Button Height="63" Name="button1" Click="button1_Click_2" Width="69" BorderThickness="0" BorderBrush="#FF520303" Padding="0">
                     <Button.Background>
                         <ImageBrush ImageSource="/Kirabo;component/Images/search-icon.png" Stretch="Uniform" />
                     </Button.Background>
                 </Button>
             </StackPanel>
-            <ListBox Height="573" Name="giftListBox" Width="460" HorizontalContentAlignment="Left" VerticalAlignment="Top" SelectionChanged="MainListBox_SelectionChanged" Margin="6,72,14,0">
+            <ListBox SelectionChanged="MainListBox_SelectionChanged" Height="591" HorizontalAlignment="Left" Margin="0,72,0,0" Name="giftListBox" VerticalAlignment="Top" Width="480" Background="White">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
-                        <StackPanel Margin="0,0,0,17" Width="432">
-                            <TextBlock Text="{Binding GiftName}" TextWrapping="Wrap" Style="{StaticResource PhoneTextExtraLargeStyle}" Foreground="Black" />
+                        <StackPanel Height="89" HorizontalAlignment="Left" Margin="8,12,0,0" Name="stackPanel4" VerticalAlignment="Top" Width="459" Orientation="Horizontal">
+                            <Image Source="{Binding GiftImageUri}" Height="80" Name="image3" Stretch="Fill" Width="80" Margin="5,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Left" />
+                            <StackPanel Height="87" Width="363" Margin="5,0,0,0" VerticalAlignment="Top">
+                                <TextBlock Height="31" Name="textBlock2" Text="{Binding GiftName}" Width="289" Foreground="#FF2E2626" Margin="0,3,0,0" HorizontalAlignment="Left" FontFamily="Georgia" FontWeight="Bold" />
+                                <TextBlock Height="40" Name="textBlock3" Text="{Binding GiftDescription}" Width="357" Foreground="#FF1A1818" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" FontFamily="Georgia" Margin="0,5,0,0" FontStyle="Normal" />
+                                <Border BorderBrush="Silver" BorderThickness="0,0,0,3" Height="5" Name="border1" Width="358" HorizontalAlignment="Left" Margin="0,2,0,0" />
+                            </StackPanel>
                         </StackPanel>
                     </DataTemplate>
                 </ListBox.ItemTemplate>
             </ListBox>
+<!--SelectionChanged="MainListBox_SelectionChanged"-->
         </Grid>
         <StackPanel Height="44" Name="stackPanel1" Margin="0,60,0,36" Background="#FFE4E4E4" Orientation="Horizontal" HorizontalAlignment="Left" Width="480">
             <TextBlock Height="31" Name="textBlock1" Text="    Gift Categories" Foreground="#FFAA8181" FontStyle="Normal" FontWeight="Normal" FontStretch="Condensed" FontSize="24" FontFamily="Georgia" Width="195" />

@@ -6,8 +6,6 @@ E:\windows-phone-apps\kirabo\Kirabo\Kirabo\Bin\Debug\AppManifest.xaml
 E:\windows-phone-apps\kirabo\Kirabo\Kirabo\Bin\Debug\Kirabo.xap
 E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\ResolveAssemblyReference.cache
 E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\App.g.i.cs
-E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\DetailsPage.g.i.cs
-E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\MainPage.g.i.cs
 E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\Kirabo.g.resources
 E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\Kirabo.dll
 E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\Kirabo.pdb
@@ -16,3 +14,6 @@ E:\windows-phone-apps\kirabo\Kirabo\Kirabo\Bin\Debug\Microsoft.Phone.Controls.dl
 E:\windows-phone-apps\kirabo\Kirabo\Kirabo\Bin\Debug\Microsoft.Phone.Controls.xml
 E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\CategorySelection.g.i.cs
 E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\Gifts.g.i.cs
+E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\DetailsPage.g.i.cs
+E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\MainPage.g.i.cs
+E:\windows-phone-apps\kirabo\Kirabo\Kirabo\obj\Debug\Aboutpage.g.i.cs

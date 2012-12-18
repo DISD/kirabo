@@ -6,16 +6,15 @@
     xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768" 
-    d:DataContext="{d:DesignData SampleData/MainViewModelSampleData.xaml}"
+    mc:Ignorable="d" d:DataContext="{d:DesignData SampleData/MainViewModelSampleData.xaml}"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait"  Orientation="Portrait"
-    shell:SystemTray.IsVisible="True" Loaded="PhoneApplicationPage_Loaded">
+    shell:SystemTray.IsVisible="True" Loaded="PhoneApplicationPage_Loaded" Height="800" Width="480">
 
     <!--Data context is set to sample data above and LayoutRoot contains the root grid where all other page content is placed-->
-    <Grid x:Name="LayoutRoot" Background="#FFF3F6FA">
+    <Grid x:Name="LayoutRoot" Background="#FFF3F6FA" Width="480" Height="781">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -23,12 +22,26 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <!--ContentPanel contains ListBox and ListBox ItemTemplate. Place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0" Background="#FFF3F6FA">
-            <Button Content=" Choose a gift" Height="72" Margin="119,471,106,0" Name="kiraboStart" VerticalAlignment="Top" Click="kiraboStart_Click" Background="#00032424" Foreground="#FF7C0E0E" BorderBrush="#FF796060" BorderThickness="1" FontFamily="Calibri" FontSize="32" DataContext="{Binding}" />
-            <Grid HorizontalAlignment="Left" Margin="108,184,0,319" Name="grid1" Width="242" Background="#FF24877E">
-                <Image Height="212" HorizontalAlignment="Left" Margin="23,22,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="200" Source="/Kirabo;component/Images/title1.png" ImageFailed="image1_ImageFailed_1" />
-                <Button Height="265" HorizontalAlignment="Left" Name="button1" VerticalAlignment="Top" Width="266" Margin="-13,0,0,0" BorderThickness="0" Click="button1_Click" />
-            </Grid>
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="0,0,12,-22" Background="White">
+            <TextBlock Height="35" HorizontalAlignment="Left" Margin="114,616,0,0" Name="textBlock1" Text="disdcode@gmail.com" VerticalAlignment="Top" Width="219" FontFamily="Georgia" Foreground="#FFB63B3B" FontSize="22" />
+            <ProgressBar Height="26" HorizontalAlignment="Left" Margin="33,701,0,0" Name="progressBar1" VerticalAlignment="Top" Width="408" Foreground="#FF37AAE2" IsTabStop="False" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="151,657,0,0" Name="textBlock3" Text="Loading....." VerticalAlignment="Top" Width="199" Foreground="#FF242222" />
+        </Grid>
+        <Grid Height="554" HorizontalAlignment="Left" Margin="6,37,0,0" Name="grid1" VerticalAlignment="Top" Width="470" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="333*" />
+                <RowDefinition Height="30*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0*" />
+                <ColumnDefinition Width="28*" />
+                <ColumnDefinition Width="115*" />
+                <ColumnDefinition Width="330*" />
+            </Grid.ColumnDefinitions>
+            <Grid.Background>
+                <ImageBrush ImageSource="/Kirabo;component/Images/stock-photo-open-gift-box-70245448.jpg" />
+            </Grid.Background>
+            <Image Height="129" HorizontalAlignment="Left" Margin="65,183,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="324" DataContext="{Binding}" Source="/Kirabo;component/Images/wall-decal-welcome-wally-black.jpg" Grid.Column="2" Grid.ColumnSpan="2" />
         </Grid>
     </Grid>
  </phone:PhoneApplicationPage>

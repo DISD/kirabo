@@ -1,55 +1,62 @@
 <Configuration>
   <RecentFiles>
     <RecentFiles>
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:App.xaml" caret="0" fromTop="0" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:Utilities/f:Converters.cs" caret="0" fromTop="0" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:Controls/f:CustomPanel.cs" caret="176" fromTop="6" />
       <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:ViewModels/f:ItemViewModel.cs" caret="797" fromTop="22" />
       <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:ViewModels/f:MainViewModel.cs" caret="413" fromTop="0" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:CategorySelection.xaml.cs" caret="371" fromTop="0" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:App.xaml.cs" caret="4508" fromTop="25" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:SampleData/f:MainViewModelSampleData.xaml" caret="3230" fromTop="23" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Categories.xml" caret="360" fromTop="12" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xaml" caret="2836" fromTop="21" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:App.xaml" caret="0" fromTop="0" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:SampleData/f:MainViewModelSampleData.xaml" caret="0" fromTop="0" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:Utilities/f:Converters.cs" caret="0" fromTop="0" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="48" fromTop="1" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xaml.cs" caret="1116" fromTop="44" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:Properties/f:AppManifest.xml" caret="0" fromTop="0" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:CategorySelection.xaml.cs" caret="492" fromTop="17" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:MainPage.xaml" caret="1565" fromTop="11" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:MainPage.xaml.cs" caret="1719" fromTop="21" />
       <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:CategorySelection.xaml" caret="0" fromTop="0" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:MainPage.xaml" caret="1469" fromTop="0" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:MainPage.xaml.cs" caret="1781" fromTop="26" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xaml" caret="3815" fromTop="37" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="10103" fromTop="18" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xaml.cs" caret="2882" fromTop="16" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Categories.xml" caret="290" fromTop="11" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml.cs" caret="4062" fromTop="109" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml" caret="6441" fromTop="45" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:Properties/f:WMAppManifest.xml" caret="0" fromTop="0" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:Controls/f:CustomPanel.cs" caret="392" fromTop="16" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:Properties/f:AssemblyInfo.cs" caret="0" fromTop="0" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:License.txt" caret="0" fromTop="0" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Aboutpage.xaml.cs" caret="3078" fromTop="20" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:About.cs" caret="330" fromTop="15" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Aboutpage.xaml" caret="1396" fromTop="17" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:App.xaml.cs" caret="4508" fromTop="25" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml.cs" caret="4153" fromTop="14" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml" caret="4506" fromTop="41" />
     </RecentFiles>
     <RecentEdits>
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="22719" fromTop="32" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="22878" fromTop="28" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="23025" fromTop="33" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="23186" fromTop="32" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="23348" fromTop="28" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="23512" fromTop="33" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="23675" fromTop="29" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="23993" fromTop="27" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="24147" fromTop="32" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="24303" fromTop="31" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="24448" fromTop="27" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="24597" fromTop="32" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="10305" fromTop="30" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="9975" fromTop="20" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="9800" fromTop="15" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="9632" fromTop="10" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="9471" fromTop="5" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="9325" fromTop="16" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="9148" fromTop="11" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="8987" fromTop="6" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="8825" fromTop="1" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Gifts.xml" caret="10290" fromTop="23" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Categories.xml" caret="290" fromTop="11" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml.cs" caret="5006" fromTop="32" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml.cs" caret="5199" fromTop="37" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml.cs" caret="4955" fromTop="38" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml.cs" caret="4372" fromTop="25" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml.cs" caret="4940" fromTop="41" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml" caret="5863" fromTop="39" />
-      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml" caret="6441" fromTop="45" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Aboutpage.xaml.cs" caret="3078" fromTop="0" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Aboutpage.xaml.cs" caret="3078" fromTop="0" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Aboutpage.xaml" caret="1279" fromTop="3" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Aboutpage.xaml" caret="3088" fromTop="31" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/d:Controls/f:CustomPanel.cs" caret="400" fromTop="8" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Aboutpage.xaml" caret="3462" fromTop="11" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Aboutpage.xaml" caret="3074" fromTop="5" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:Aboutpage.xaml" caret="1949" fromTop="29" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml" caret="5855" fromTop="46" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml.cs" caret="713" fromTop="30" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml.cs" caret="720" fromTop="40" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml" caret="5855" fromTop="40" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml" caret="5855" fromTop="39" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml" caret="5855" fromTop="28" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml" caret="5855" fromTop="30" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml" caret="5164" fromTop="24" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml" caret="5818" fromTop="35" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml.cs" caret="720" fromTop="17" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml" caret="5655" fromTop="30" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml.cs" caret="5561" fromTop="37" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml" caret="5175" fromTop="25" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml" caret="3670" fromTop="10" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml.cs" caret="5327" fromTop="18" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml.cs" caret="5165" fromTop="9" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml.cs" caret="5272" fromTop="13" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml.cs" caret="5762" fromTop="40" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml.cs" caret="6162" fromTop="45" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml.cs" caret="4153" fromTop="14" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml" caret="5325" fromTop="27" />
+      <File id="0D7C70DA-499C-476E-AE25-E22C45807BB8/f:DetailsPage.xaml" caret="4506" fromTop="41" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>

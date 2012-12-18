@@ -13,7 +13,7 @@
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d" shell:SystemTray.IsVisible="True"
-   xmlns:converters="clr-namespace:Kirabo.Utilities" Height="768" Width="480">
+   xmlns:converters="clr-namespace:Kirabo.Utilities" d:DesignHeight="696" d:DesignWidth="480">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="#FFF3F6FA" Height="766">
@@ -32,11 +32,11 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Margin="0,103,0,12" Background="#FFF3F6FA" Grid.RowSpan="2">        
-            <ScrollViewer>
-                <ListBox x:Name="categoryList" Margin="0,0,0,-13" SelectionChanged="CategoryList_SelectionChanged" Background="#00F53939" Height="627" Width="463">
+            <ScrollViewer Background="White">
+                <ListBox x:Name="categoryList" Margin="0,0,0,-13" SelectionChanged="CategoryList_SelectionChanged" Background="White" Height="627" Width="463">
                 <ListBox.ItemTemplate>
                     <DataTemplate>                        
-                        <StackPanel HorizontalAlignment="Left" Name="stackPanel3" VerticalAlignment="Top" Width="480" Orientation="Horizontal" Margin="0,10,0,0" Grid.RowSpan="1">
+                        <StackPanel  HorizontalAlignment="Left" Name="stackPanel3" VerticalAlignment="Top" Width="480" Orientation="Horizontal" Margin="0,10,0,0" Grid.RowSpan="1">
                             <Border BorderBrush="#FFCBC3C3" BorderThickness="1" Height="100" Name="border1" Width="118" Margin="2,0,0,0">
                                 <Image  Source="{Binding CategoryImageUri}" Width="80" Height="80" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="8" Stretch="Uniform" />
                             </Border>
@@ -54,4 +54,14 @@
             <Image Height="48" Name="image1" Stretch="None" Width="200" Source="/Kirabo;component/Images/banner-text1.png" />
         </StackPanel>   
     </Grid>
- </phone:PhoneApplicationPage>
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar  IsVisible="False" IsMenuEnabled="True">
+            <!--<shell:ApplicationBarIconButton IconUri="./Images/appbar.feature.email.rest.png" Text="sms" Click="Sms_Click"/>-->
+            <!--<shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="mms"/>-->
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Click="MenuItem1_Click"  Text="About"/>
+
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+</phone:PhoneApplicationPage>

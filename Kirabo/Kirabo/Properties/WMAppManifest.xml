@@ -17,13 +17,13 @@
       <Capability Name="ID_CAP_WEBBROWSERCOMPONENT"/>
     </Capabilities>
     <Tasks>
-      <DefaultTask  Name ="_default" NavigationPage="MainPage.xaml"/>
+      <DefaultTask  Name ="_default" NavigationPage="CategorySelection.xaml"/>
     </Tasks>
     <Tokens>
       <PrimaryToken TokenID="KiraboToken" TaskName="_default">
         <TemplateType5>
           <BackgroundImageURI IsRelative="true" IsResource="false">Background.png</BackgroundImageURI>
-          <Count>0</Count>
+          <Count>2</Count>
           <Title>Kirabo</Title>
         </TemplateType5>
       </PrimaryToken>

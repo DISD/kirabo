@@ -1,522 +1,471 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <gifts>
   <giftCategory name="Love">
+
+    <gift>
+      <Name>chocolate</Name>
+      <ImageUri>../Images/chocolate.jpg</ImageUri>
+      <Description>I love you!</Description>
+    </gift>
+
+    <gift>
+      <Name>white rose</Name>
+      <ImageUri>../Images/white_roses .png</ImageUri>
+      <Description>Pure Love</Description>
+    </gift>
+    <gift>
+      <Name>red rose</Name>
+      <ImageUri>../Images/Red-Rose.jpg</ImageUri>
+      <Description>passionate love for you</Description>
+    </gift>
+    <gift>
+      <Name>purple tulip</Name>
+      <ImageUri>../Images/purple tulip.jpg</ImageUri>
+      <Description>Royalty in love</Description>
+    </gift>
+    <gift>
+      <Name>sunflower</Name>
+      <ImageUri>../Images/sunflower.jpg</ImageUri>
+      <Description>I have alot of adoration for you</Description>
+    </gift>
+    <gift>
+      <Name>mirror</Name>
+      <ImageUri>../Images/crystal-compact-mirror.jpg</ImageUri>
+      <Description>Please notice how I feel about you</Description>
+    </gift>
+    <gift>
+      <Name>tie</Name>
+      <ImageUri>../Images/circuit-board-tie.jpg</ImageUri>
+      <Description>I want to have you. </Description>
+    </gift>
+    <gift>
+      <Name>watch</Name>
+      <ImageUri>../Images/bracelet-watch.jpg</ImageUri>
+      <Description>Please cherish all the meetings we have</Description>
+    </gift>
+    <gift>
+      <Name>umbrella</Name>
+      <ImageUri>../Images/umbrella.jpg</ImageUri>
+      <Description>I will protect you no matter what</Description>
+    </gift>
     <gift>
       <Name>slippers</Name>
-      <ImageUri>../Images/love/acorn-spa-slippers.jpg</ImageUri>
+      <ImageUri>../Images/acorn-spa-slippers.jpg</ImageUri>
       <Description>Friendship</Description>
     </gift>
     <gift>
-      <Name>white rose</Name>
-      <ImageUri>../Images/love/amazing-daisy.jpg</ImageUri>
-      <Description>Purity</Description>
+      <Name>bracelet</Name>
+      <ImageUri>../Images/flutter-bracelet.jpg</ImageUri>
+      <Description> You mean a lot to me</Description>
     </gift>
     <gift>
-      <Name>flower bouquet</Name>
-      <ImageUri>../Images/love/autumn-harvest-bouquet.jpg</ImageUri>
-      <Description>I love you</Description>
+      <Name>flowers</Name>
+      <ImageUri>../Images/melt-my-heart.jpg</ImageUri>
+      <Description>I love you! And thank you for your Love</Description>
     </gift>
+    
     <gift>
       <Name>gift basket</Name>
-      <ImageUri>../Images/love/basket-gift.jpg</ImageUri>
+      <ImageUri>../Images/basket-gift.jpg</ImageUri>
       <Description>Purity</Description>
     </gift>
     <gift>
       <Name>berry</Name>
-      <ImageUri>../Images/love/berry-medley.jpg</ImageUri>
-      <Description>Love you</Description>
+      <ImageUri>../Images/berry-medley.jpg</ImageUri>
+      <Description> I Love you</Description>
     </gift>
     <gift>
       <Name>wallet</Name>
-      <ImageUri>../Images/love/bii-fold-wallet.jpg</ImageUri>
-      <Description>Care</Description>
+      <ImageUri>../Images/bi-fold-wallet.jpg</ImageUri>
+      <Description> I Care about you</Description>
     </gift>
     <gift>
       <Name>belt</Name>
-      <ImageUri>../Images/love/boot-camp-belt.jpg</ImageUri>
-      <Description>Hold you forever</Description>
+      <ImageUri>../Images/boot-camp-belt.jpg</ImageUri>
+      <Description>I hold you be my side forever</Description>
     </gift>
     <gift>
-      <Name>iphone case opener</Name>
-      <ImageUri>../Images/love/bottle-opener-iphone-case.jpg</ImageUri>
+      <Name>phone case opener</Name>
+      <ImageUri>../Images/bottle-opener-iphone-case.jpg</ImageUri>
       <Description>you hold my heart opener</Description>
     </gift>
     <gift>
       <Name>card holder</Name>
-      <ImageUri>../Images/love/cardholder.jpg</ImageUri>
+      <ImageUri>../Images/cardholder.jpg</ImageUri>
       <Description>Hold every piece of my heart</Description>
     </gift>
     <gift>
       <Name>champagne</Name>
-      <ImageUri>../Images/love/champagne-gift.jpg</ImageUri>
-      <Description>celebration</Description>
+      <ImageUri>../Images/champagne-gift.jpg</ImageUri>
+      <Description>celebration for our Love</Description>
     </gift>
-    <gift>
-      <Name>chocolate</Name>
-      <ImageUri>../Images/love/chocolate.jpg</ImageUri>
-      <Description>I like you</Description>
-    </gift>
-    <gift>
-      <Name>chocolate Truffles</Name>
-      <ImageUri>../Images/love/chocolate-truffles.jpg</ImageUri>
-      <Description>I like you</Description>
-    </gift>
-    <gift>
-      <Name>tie</Name>
-      <ImageUri>../Images/love/circuit-board-tie.jpg</ImageUri>
-      <Description>Tie him down and he will be yours forever</Description>
-    </gift>
-    <gift>
-      <Name>clock</Name>
-      <ImageUri>../Images/love/clocky.jpg</ImageUri>
-      <Description>dbfhdfhdf </Description>
-    </gift>
+
+
+
     <gift>
       <Name>coffee mug</Name>
-      <ImageUri>../Images/love/coffee1-mugs.jpg</ImageUri>
+      <ImageUri>../Images/coffee-mugs.jpg</ImageUri>
       <Description>Sharing, love and compassion</Description>
     </gift>
     <gift>
       <Name>bouquet</Name>
-      <ImageUri>../Images/love/crazy-for-you-bouquet.jpg</ImageUri>
+      <ImageUri>../Images/lovely-lady.jpg</ImageUri>
       <Description>Crazy for you</Description>
     </gift>
-    <gift>
-      <Name>compact mirror</Name>
-      <ImageUri>../Images/love/crystal-compact-mirror.jpg</ImageUri>
-      <Description>Vitue</Description>
-    </gift>
-    <gift>
-      <Name>deluxe gift set</Name>
-      <ImageUri>../Images/love/deluxe-gift-set.jpg</ImageUri>
-      <Description>asdasd</Description>
-    </gift>
+
+
     <gift>
       <Name>desk calender</Name>
-      <ImageUri>../Images/love/desk-calender.jpg</ImageUri>
-      <Description>Think about you everyday</Description>
+      <ImageUri>../Images/desk-calendar.jpg</ImageUri>
+      <Description>Think about you everyday of my life</Description>
     </gift>
     <gift>
       <Name>dog tag</Name>
-      <ImageUri>../Images/love/double-dogtag.jpg</ImageUri>
-      <Description>You and me forever</Description>
+      <ImageUri>../Images/double-dogtag.jpg</ImageUri>
+      <Description>You and me forever two in one</Description>
     </gift>
-    <gift>
-      <Name>slippers</Name>
-      <ImageUri>../Images/love/double-sole-slippers.jpg</ImageUri>
-      <Description>Protection</Description>
-    </gift>
+
     <gift>
       <Name>perfume</Name>
-      <ImageUri>../Images/love/dream-angels-perfume.jpg</ImageUri>
-      <Description>Romance</Description>
+      <ImageUri>../Images/dream-angels-perfume.jpg</ImageUri>
+      <Description>Remember me always</Description>
     </gift>
-    <gift>
-      <Name>camera</Name>
-      <ImageUri>../Images/love/dreamer-camera.jpg</ImageUri>
-      <Description>Dfgfg</Description>
-    </gift>
+
     <gift>
       <Name>ring</Name>
-      <ImageUri>../Images/love/fishing-ring.jpg</ImageUri>
-      <Description>Fishing</Description>
+     <ImageUri>../Images/engagement-rings.jpg</ImageUri>
+      <Description>Please be mine forever</Description>
     </gift>
-    <gift>
-      <Name>floral bouquet</Name>
-      <ImageUri>../Images/love/floral-bouquet.jpg</ImageUri>
-      <Description>I love you</Description>
-    </gift>
+
     <gift>
       <Name>candle</Name>
-      <ImageUri>../Images/love/fragrance-candle.jpg</ImageUri>
+      <ImageUri>../Images/fragrance-candle.jpg</ImageUri>
       <Description>Make a wish</Description>
     </gift>
     <gift>
       <Name>pendant</Name>
-      <ImageUri>../Images/love/granddaughter-heart-pendant.jpg</ImageUri>
+      <ImageUri>../Images/granddaughter-heart-pendant.jpg</ImageUri>
       <Description>Love for granddaughter</Description>
     </gift>
-    <gift>
-      <Name>green flower plant</Name>
-      <ImageUri>../Images/love/green-flowerl-plant.jpg</ImageUri>
-      <Description>DSxbxbxcb </Description>
-    </gift>
+
     <gift>
       <Name>earrings</Name>
-      <ImageUri>../Images/love/heart-drop-earrings.jpg</ImageUri>
-      <Description>Love you forever</Description>
+      <ImageUri>../Images/heart-drop-earrings.jpg</ImageUri>
+      <Description>I Love you forever</Description>
     </gift>
+
     <gift>
-    <Name>Wallet</Name>
-    <ImageUri>../Images/love/heart-lock-wallet.jpg</ImageUri>
-    <Description>New money coming</Description>
-    </gift>
-    <gift>
-      <Name>Necklace</Name>
-      <ImageUri>../Images/love/initial-heart-locket-necklacee.jpg</ImageUri>
-      <Description>You mean a lot to me</Description>
+      <Name>necklace</Name>
+      <ImageUri>../Images/heart-necklace.jpg</ImageUri>
+      <Description>I want to become one with you. </Description>
     </gift>
 
     <gift>
       <Name>phone</Name>
-      <ImageUri>../Images/love/iphone-4.jpg</ImageUri>
-      <Description>Reach you in all times</Description>
+      <ImageUri>../Images/iphone-4.jpg</ImageUri>
+      <Description>I want to hear your voice all the time</Description>
     </gift>
     <gift>
       <Name>jewelry box</Name>
-      <ImageUri>../Images/love/jewelry-box.jpg</ImageUri>
+      <ImageUri>../Images/jewelry-box.jpg</ImageUri>
       <Description>Precious</Description>
     </gift>
     <gift>
-      <Name>love book</Name>
-      <ImageUri>../Images/love/kamasutra.jpg</ImageUri>
-      <Description>Romance</Description>
+      <Name>notebook</Name>
+      <ImageUri>../Images/kamasutra.jpg</ImageUri>
+      <Description>Show me your pure love. </Description>
     </gift>
     <gift>
       <Name>briefcase</Name>
-      <ImageUri>../Images/love/legal-briefcase.jpg</ImageUri>
+      <ImageUri>../Images/legal-briefcase.jpg</ImageUri>
       <Description>Legal</Description>
     </gift>
     <gift>
       <Name>t-shirt</Name>
-      <ImageUri>../Images/love/loved-t-shirt.jpg</ImageUri>
+      <ImageUri>../Images/loved-t-shirt.jpg</ImageUri>
       <Description>Loved</Description>
     </gift>
     <gift>
       <Name>love stones</Name>
-      <ImageUri>../Images/love/love-stones.jpg</ImageUri>
+      <ImageUri>../Images/love-stones.jpg</ImageUri>
       <Description>Purity</Description>
     </gift>
     <gift>
       <Name>bamboo</Name>
-      <ImageUri>../Images/love/lucky-bamboo-plant.jpg</ImageUri>
+      <ImageUri>../Images/lucky-bamboo-plant.jpg</ImageUri>
       <Description>Lucky</Description>
     </gift>
     <gift>
       <Name>soap</Name>
-      <ImageUri>../Images/love/luxury-soap.jpg</ImageUri>
+      <ImageUri>../Images/luxury-soap.jpg</ImageUri>
       <Description>Purity</Description>
     </gift>
     <gift>
       <Name>massage oil</Name>
-      <ImageUri>../Images/love/massage-oil.jpg</ImageUri>
+      <ImageUri>../Images/massage-oil.jpg</ImageUri>
       <Description>Purity</Description>
     </gift>
-    <gift>
-      <Name>flowers</Name>
-      <ImageUri>../Images/love/melt-my-heart.jpg</ImageUri>
-      <Description>Melt my heart</Description>
-    </gift>
-    <gift>
-      <Name>tie</Name>
-      <ImageUri>../Images/love/microscope-tie.jpg</ImageUri>
-      <Description>Tied </Description>
-    </gift>
+
+
     <gift>
       <Name>moisturizing cream</Name>
-      <ImageUri>../Images/love/moisturizing-cream.jpg</ImageUri>
+      <ImageUri>../Images/moisturizing-cream.jpg</ImageUri>
       <Description>Smoothen</Description>
     </gift>
 
     <gift>
       <Name>mom</Name>
-      <ImageUri>../Images/love/mom's-gift.jpg</ImageUri>
+      <ImageUri>../Images/mom's-gift.jpg</ImageUri>
       <Description>Mother's love</Description>
     </gift>
     <gift>
       <Name>pillowcases</Name>
-      <ImageUri>../Images/love/mrs-pillow-cases.jpg</ImageUri>
+      <ImageUri>../Images/mrmrs-pillow-cases.jpg</ImageUri>
       <Description>Purity</Description>
     </gift>
-    <gift>
-      <Name>mug</Name>
-      <ImageUri>../Images/love/mug.jpg</ImageUri>
-      <Description>Purity</Description>
-    </gift>
+    
     <gift>
       <Name>necktie</Name>
-      <ImageUri>../Images/love/necktie.jpg</ImageUri>
+      <ImageUri>../Images/necktie.jpg</ImageUri>
       <Description>Purity</Description>
     </gift>
     <gift>
       <Name>frame</Name>
-      <ImageUri>../Images/love/picture-frame.jpg</ImageUri>
-      <Description>Purity</Description>
+      <ImageUri>../Images/picture-frame.jpg</ImageUri>
+      <Description>Cherish our memories forever</Description>
     </gift>
     <gift>
       <Name>pocket compass</Name>
-      <ImageUri>../Images/love/pocket-compass.jpg</ImageUri>
+      <ImageUri>../Images/pocket-compass.jpg</ImageUri>
       <Description>Guidance</Description>
     </gift>
-    <gift>
-      <Name>digital sound system</Name>
-      <ImageUri>../Images/love/portable-digital-sound-system.jpg</ImageUri>
-      <Description>Loud</Description>
-    </gift>
-    <gift>
-      <Name>rainbow roses</Name>
-      <ImageUri>../Images/love/rainbow-roses.jpg</ImageUri>
-      <Description>Purity</Description>
-    </gift>
+
+
     <gift>
       <Name>rainforest bouquet</Name>
-      <ImageUri>../Images/love/rainforest-bouquet.jpg</ImageUri>
+      <ImageUri>../Images/rainforest-bouquet.jpg</ImageUri>
       <Description>Purity</Description>
     </gift>
     <gift>
       <Name>romantic candles</Name>
-      <ImageUri>../Images/love/romantic-candles.jpg</ImageUri>
+      <ImageUri>../Images/romantic-candles.jpg</ImageUri>
       <Description>Light</Description>
     </gift>
 
     <gift>
       <Name>cufflinks</Name>
-      <ImageUri>../Images/love/solidate-cufflinks.jpg</ImageUri>
+      <ImageUri>../Images/cufflinks.jpg</ImageUri>
       <Description>Purity</Description>
     </gift>
     <gift>
       <Name>red roses</Name>
-      <ImageUri>../Images/love/stemmed-red-roses.jpg</ImageUri>
+      <ImageUri>../Images/stemmed-red-roses.jpg</ImageUri>
       <Description>Purity</Description>
     </gift>
-    <gift>
-      <Name>sunset tulip flowers</Name>
-      <ImageUri>../Images/love/sunset-tulip-flowers.jpg</ImageUri>
-      <Description>Sunlight</Description>
-    </gift>
+
     <gift>
       <Name>sweets</Name>
-      <ImageUri>../Images/love/sweets.jpg</ImageUri>
+      <ImageUri>../Images/sweets.jpg</ImageUri>
       <Description>Sweet</Description>
     </gift>
     <gift>
       <Name>treasure box</Name>
-      <ImageUri>../Images/love/treasure-box.jpg</ImageUri>
+      <ImageUri>../Images/treasure-box.jpg</ImageUri>
       <Description>Precious</Description>
     </gift>
-    <gift>
-      <Name>purple tulip flowers</Name>
-      <ImageUri>../Images/love/tulip-flowers.jpg</ImageUri>
-      <Description>Purity</Description>
-    </gift>
+
     <gift>
       <Name>valentine heart</Name>
-      <ImageUri>../Images/love/valentine-heart.jpg</ImageUri>
+      <ImageUri>../Images/valentine-heart.jpg</ImageUri>
       <Description>Love you so much</Description>
     </gift>
+    
     <gift>
-      <Name>watch</Name>
-      <ImageUri>../Images/love/watch.jpg</ImageUri>
-      <Description>Time</Description>
-    </gift>
-    <gift>
-      <Name>firemen watch</Name>
-      <ImageUri>../Images/love/watch-for-firemen.jpg</ImageUri>
-      <Description>Duty, Honor and Courage</Description>
-    </gift>
-    <gift>send 
+      send
       <Name>photo frame</Name>
-      <ImageUri>../Images/love/wood-photo-frame.jpg</ImageUri>
+      <ImageUri>../Images/wood-photo-frames.jpg</ImageUri>
       <Description>Purity</Description>
     </gift>
-    
   </giftCategory>
 
   <giftCategory name="Wedding">
     <gift>
       <Name>home Theater</Name>
-      <ImageUri>../Images/wedding/home-theater-system.jpg</ImageUri>
+      <ImageUri>../Images/home-theater.jpg</ImageUri>
       <Description> Love music</Description>
     </gift>
     <gift>
       <Name>tea pot</Name>
-      <ImageUri>../Images/wedding/teapot.jpg</ImageUri>
+      <ImageUri>../Images/teapot.jpg</ImageUri>
       <Description> Relax</Description>
     </gift>
     <gift>
       <Name>drinking glasses</Name>
-      <ImageUri>../Images/wedding/drinking-glass.jpg</ImageUri>
+      <ImageUri>../Images/drinking-glass.jpg</ImageUri>
       <Description> Soul mate</Description>
     </gift>
     <gift>
       <Name>candlesticks</Name>
-      <ImageUri>../Images/wedding/candlesticks.jpg</ImageUri>
+      <ImageUri>../Images/wish-candles.jpg</ImageUri>
       <Description> Love story</Description>
     </gift>
-    <gift>
-      <Name>camera</Name>
-      <ImageUri>../Images/wedding/camera1.jpg</ImageUri>
-      <Description> Leisure</Description>
-    </gift>
+    
     <gift>
       <Name>table plates</Name>
-      <ImageUri>../Images/wedding/table-settings.jpg</ImageUri>
+      <ImageUri>../Images/table-setings.jpg</ImageUri>
       <Description> Serving</Description>
     </gift>
     <gift>
       <Name>glass bell</Name>
-      <ImageUri>../Images/wedding/glass-bell.jpg</ImageUri>
+      <ImageUri>../Images/glass-bell.jpg</ImageUri>
       <Description> Transparency</Description>
     </gift>
     <gift>
       <Name> wooden photo box</Name>
-      <ImageUri>../Images/wedding/photo-box.jpg</ImageUri>
+      <ImageUri>../Images/photo-box.jpg</ImageUri>
       <Description> Together forever</Description>
     </gift>
     <gift>
       <Name>watch</Name>
-      <ImageUri>../Images/wedding/bracelet-watch.jpg</ImageUri>
+      <ImageUri>../Images/bracelet-watch.jpg</ImageUri>
       <Description> Time keeping</Description>
     </gift>
     <gift>
       <Name>vase</Name>
-      <ImageUri>../Images/wedding/horn-vase.jpg</ImageUri>
+      <ImageUri>../Images/horn-vase.jpg</ImageUri>
       <Description> Always there</Description>
     </gift>
     
     <gift>
       <Name>fruits</Name>
-      <ImageUri>../Images/wedding/fruits.jpg</ImageUri>
+      <ImageUri>../Images/fruits.jpg</ImageUri>
       <Description>Passion </Description>
     </gift>
     <gift>
       <Name>lamp</Name>
-      <ImageUri>../Images/wedding/lamp.jpg</ImageUri>
+      <ImageUri>../Images/lamp.jpg</ImageUri>
       <Description> Light</Description>
     </gift>
     <gift>
       <Name>bouquet</Name>
-      <ImageUri>../Images/wedding/uptown-boutquet.jpg</ImageUri>
+      <ImageUri>../Images/lovely-lady.jpg</ImageUri>
       <Description>Compliment</Description>
     </gift>
     <gift>
       <Name>love book</Name>
-      <ImageUri>../Images/wedding/lovebook.jpg</ImageUri>
+      <ImageUri>../Images/lovebook.jpg</ImageUri>
       <Description>Love stories</Description>
-    </gift>
-    <gift>
-      <Name>bouquet</Name>
-      <ImageUri>../Images/wedding/uptown-boutquet.jpg</ImageUri>
-      <Description>Compliment</Description>
-    </gift>
-    <gift>
-      <Name>couple cake</Name>
-      <ImageUri>../Images/wedding/couple-cake.jpg</ImageUri>
-      <Description> Wealth, happiness and fertility</Description>
-    </gift>
+    </gift>    
+    
     <gift>
       <Name>photo</Name>
-      <ImageUri>../Images/wedding/forever-yours-pictures.jpg</ImageUri>
+      <ImageUri>../Images/forever-yours-picture.jpg</ImageUri>
       <Description> Forever yours </Description>
     </gift>
     <gift>
       <Name>cook essentials</Name>
-      <ImageUri>../Images/wedding/cook-essentials.jpg</ImageUri>
+      <ImageUri>../Images/cook-essentials.jpg</ImageUri>
       <Description> Give new meaning to the meal</Description>
     </gift>
     <gift>
       <Name>desk cards</Name>
-      <ImageUri>../Images/wedding/pair-desk-cards.jpg</ImageUri>
+      <ImageUri>../Images/pair-desk-cards.jpg</ImageUri>
       <Description> King and Queen</Description>
     </gift>
     <gift>
       <Name>beaded album</Name>
-      <ImageUri>../Images/wedding/beaded-album.jpg</ImageUri>
+      <ImageUri>../Images/beaded-album.jpg</ImageUri>
       <Description> Blessed couple</Description>
     </gift>
     <gift>
       <Name>camera</Name>
-      <ImageUri>../Images/ wedding /camera.jpg</ImageUri>
-      <Description> Remember</Description>
+      <ImageUri>../Images/camera1.jpg</ImageUri>
+      <Description> Remember and Leisure</Description>
     </gift>
     <gift>
       <Name>clock</Name>
-      <ImageUri>../Images/ wedding /hardwick-clock.jpg</ImageUri>
+      <ImageUri>../Images/hardwick-clock.jpg</ImageUri>
       <Description> Good luck</Description>
     </gift>
     <gift>
       <Name>bible verse slate</Name>
-      <ImageUri>../Images/ wedding /bible-verse-slate.jpg</ImageUri>
+      <ImageUri>../Images/bible-verse-slate.jpg</ImageUri>
       <Description> God loves you too</Description>
     </gift>
-    <gift>
-      <Name>cross</Name>
-      <ImageUri>../Images/ wedding /cross.jpg</ImageUri>
-      <Description> Love is patient</Description>
-    </gift>
+    
     <gift>
       <Name>pillow</Name>
-      <ImageUri>../Images/ wedding /pillow1.jpg</ImageUri>
+      <ImageUri>../Images/pillow1.jpg</ImageUri>
       <Description> Good sleep</Description>
     </gift>    
     <gift>
       <Name>album</Name>
-      <ImageUri>../Images/ wedding /album.jpg</ImageUri>
+      <ImageUri>../Images/album.jpg</ImageUri>
       <Description> Memories</Description>
     </gift>
     <gift>
       <Name>holy bible</Name>
-      <ImageUri>../Images/ wedding /holy-bible.jpg</ImageUri>
+      <ImageUri>../Images/holy-bible.jpg</ImageUri>
       <Description> Spiritual</Description>
     </gift>
     <gift>
       <Name>elegant bowl</Name>
-      <ImageUri>../Images/ wedding /elegant-bowl.jpg</ImageUri>
+      <ImageUri>../Images/elegant-bowl.jpg</ImageUri>
       <Description> Blessings</Description>
     </gift>
     <gift>
       <Name>bracelet</Name>
-      <ImageUri>../Images/ wedding /flutter-bracelet.jpg</ImageUri>
+      <ImageUri>../Images/flutter-bracelet.jpg</ImageUri>
       <Description> You mean a lot to me</Description>
     </gift>
     <gift>
       <Name>acrylic heart</Name>
-      <ImageUri>../Images/ wedding /acrylic-heart.jpg</ImageUri>
+      <ImageUri>../Images/acrylic-heart.jpg</ImageUri>
       <Description> Soul mate</Description>
     </gift>
     <gift>
-      <Name>bridal jewelry</Name>
-      <ImageUri>../Images/ wedding /bridal-jewelry.jpg</ImageUri>
-      <Description> Mean a lot to me</Description>
+      <Name>jewelry</Name>
+      <ImageUri>../Images/bridal-jewelry.jpg</ImageUri>
+      <Description> That you care deeply and that should be a constant reminder</Description>
     </gift>
     <gift>
       <Name>frame</Name>
-      <ImageUri>../Images/ wedding /frame.jpg</ImageUri>
+      <ImageUri>../Images/frame.jpg</ImageUri>
       <Description> Unforgettable</Description>
     </gift>
     <gift>
       <Name>dangle frame</Name>
-      <ImageUri>../Images/ wedding /dangle-frame.jpg</ImageUri>
+      <ImageUri>../Images/dangle-frame.jpg</ImageUri>
       <Description> Everlasting love</Description>
     </gift>
     <gift>
       <Name>champagne</Name>
-      <ImageUri>../Images/ wedding /champagne.jpg</ImageUri>
+      <ImageUri>../Images/champagne-gift.jpg</ImageUri>
       <Description> Congratulations</Description>
     </gift>
     <gift>
       <Name>candles</Name>
-      <ImageUri>../Images/ wedding /candles.jpg</ImageUri>
+      <ImageUri>../Images/candlesticks.jpg</ImageUri>
       <Description> Make a wish</Description>
     </gift>
     <gift>
       <Name>ceramic vase</Name>
-      <ImageUri>../Images/ wedding /ceramic-vase.jpg</ImageUri>
+      <ImageUri>../Images/ceramic-vase.jpg</ImageUri>
       <Description> My love, my soul mate</Description>
     </gift>
     <gift>
       <Name>holiday wine box</Name>
-      <ImageUri>../Images/wedding /holiday-wine-box.jpg</ImageUri>
+      <ImageUri>../Images/holiday-wine-box.jpg</ImageUri>
       <Description> Happy holiday</Description>
     </gift>
     <gift>
       <Name>pimp cups</Name>
-      <ImageUri>../Images/wedding/pimp-cups.jpg</ImageUri>
+      <ImageUri>../Images/pimp-cups.jpg</ImageUri>
       <Description> Bride and groom</Description>
     </gift>
     <gift>
       <Name>couple T-shirt</Name>
-      <ImageUri>../Images/wedding/couple's t-shirt set.jpg</ImageUri>
+      <ImageUri>../Images/couple's t-shirt set.jpg</ImageUri>
       <Description> you complete my heart</Description>
     </gift>
   </giftCategory>
@@ -524,244 +473,844 @@
   <giftCategory name="Kids">
     <gift>
       <Name>pumper</Name>
-      <ImageUri>../Images/kids/pumper.jpg</ImageUri>
+      <ImageUri>../Images/pumper.jpg</ImageUri>
       <Description>Good Sleep</Description>
     </gift>
     <gift>
       <Name>web notebook</Name>
-      <ImageUri>../Images/kids/web-notebook.jpg</ImageUri>
+      <ImageUri>../Images/web-notebook.jpg</ImageUri>
       <Description>Informed</Description>
     </gift>
     <gift>
       <Name>necklace</Name>
-      <ImageUri>../Images/kids/granddaughter-necklace.jpg</ImageUri>
-      <Description>Glad that you are mine</Description>
+      <ImageUri>../Images/heart-necklace.jpg</ImageUri>
+      <Description> constant reminder of how you care</Description>
     </gift>
-    <gift>
-      <Name>bear</Name>
-      <ImageUri>../Images/kids/give-back-bear.jpg</ImageUri>
-      <Description>Give back</Description>
-    </gift>
-    <gift>
-      <Name>piggy bank</Name>
-      <ImageUri>../Images/kids/classic-piggy-bank.jpg</ImageUri>
-      <Description>Saving</Description>
-    </gift>
+    
+    
     <gift>
       <Name>paper watch</Name>
-      <ImageUri>../Images/kids/paper-watch.jpg</ImageUri>
+      <ImageUri>../Images/paper-watch.jpg</ImageUri>
       <Description>Creative</Description>
     </gift>
     <gift>
       <Name>shoes</Name>
-      <ImageUri>../Images/kids/shoes.jpg</ImageUri>
+      <ImageUri>../Images/shoes.jpg</ImageUri>
       <Description>Protection</Description>
     </gift>
     <gift>
       <Name>diary</Name>
-      <ImageUri>../Images/kids/jounal-diary.jpg</ImageUri>
+      <ImageUri>../Images/jounal-diary.jpg</ImageUri>
       <Description>Keep truck</Description>
     </gift>
     <gift>
       <Name>fire truck</Name>
-      <ImageUri>../Images/kids/fire-truck.jpg</ImageUri>
+      <ImageUri>../Images/fire-truck.jpg</ImageUri>
       <Description>Rescue lives</Description>
     </gift>
     <gift>
       <Name>construction plate</Name>
-      <ImageUri>../Images/kids/construction-plate.jpg</ImageUri>
+      <ImageUri>../Images/construction-plate.jpg</ImageUri>
       <Description>Constructive</Description>
     </gift>
     <gift>
       <Name>clock radio</Name>
-      <ImageUri>../Images/kids/clock-radio.jpg</ImageUri>
+      <ImageUri>../Images/clock-radio.jpg</ImageUri>
       <Description>Be informed and time management</Description>
     </gift>
     <gift>
       <Name>candy store</Name>
-      <ImageUri>../Images/kids/candy-store.jpg</ImageUri>
+      <ImageUri>../Images/candy-store.jpg</ImageUri>
       <Description>Keep safely</Description>
     </gift>
     <gift>
       <Name>piggy bank</Name>
-      <ImageUri>../Images/kids/pig-bank.jpg</ImageUri>
+      <ImageUri>../Images/pig-bank.jpg</ImageUri>
       <Description>Saving</Description>
     </gift>
     <gift>
       <Name>laptop</Name>
-      <ImageUri>../Images/kids/laptop.jpg</ImageUri>
+      <ImageUri>../Images/laptop.jpg</ImageUri>
       <Description>Intelligent</Description>
     </gift>
     <gift>
       <Name>boots</Name>
-      <ImageUri>../Images/kids/boots.jpg</ImageUri>
+      <ImageUri>../Images/boots.jpg</ImageUri>
       <Description>Protection</Description>
     </gift>
     <gift>
       <Name>bricks</Name>
-      <ImageUri>../Images/kids/lowercase-bricks.jpg</ImageUri>
+      <ImageUri>../Images/lowercase-bricks.jpg</ImageUri>
       <Description>Learning</Description>
     </gift>
-    <gift>
-      <Name>headphones</Name>
-      <ImageUri>../Images/kids/camo-headphones.jpg</ImageUri>
-      <Description>Listen</Description>
-    </gift>
+    
     <gift>
       <Name>umbrella</Name>
-      <ImageUri>../Images/kids/froggy-umbrella.jpg</ImageUri>
+      <ImageUri>../Images/froggy-umbrella.jpg</ImageUri>
       <Description>Protected</Description>
     </gift>
     <gift>
       <Name>toys</Name>
-      <ImageUri>../Images/kids/bloco-toys.jpg</ImageUri>
+      <ImageUri>../Images/bloco-toys.jpg</ImageUri>
       <Description>Science</Description>
     </gift>
     <gift>
       <Name>leapfrog leapster</Name>
-      <ImageUri>../Images/kids/leapster.jpg</ImageUri>
+      <ImageUri>../Images/leapster.jpg</ImageUri>
       <Description>Explorer learning</Description>
     </gift>
     <gift>
       <Name>bracelet</Name>
-      <ImageUri>../Images/kids/bracelet.jpg</ImageUri>
+      <ImageUri>../Images/bracelet.jpg</ImageUri>
       <Description>Precious</Description>
     </gift>
     <gift>
       <Name>doll</Name>
-      <ImageUri>../Images/kids/barble-doll.jpg</ImageUri>
+      <ImageUri>../Images/barble-doll.jpg</ImageUri>
       <Description>Beautiful</Description>
     </gift>
     <gift>
       <Name>police pack</Name>
-      <ImageUri>../Images/kids/police-pack.jpg</ImageUri>
+      <ImageUri>../Images/police-pack.jpg</ImageUri>
       <Description>Hero</Description>
     </gift>
     <gift>
       <Name>cubebot</Name>
-      <ImageUri>../Images/kids/cubebot.jpg</ImageUri>
+      <ImageUri>../Images/cubebot.jpg</ImageUri>
       <Description>Strong</Description>
     </gift>
     <gift>
       <Name>alarm clock</Name>
-      <ImageUri>../Images/kids/alarm-clock.jpg</ImageUri>
+      <ImageUri>../Images/alarm-clock.jpg</ImageUri>
       <Description>On time always</Description>
     </gift>
-    <gift>
-      <Name>lunch box</Name>
-      <ImageUri>../Images/kids/lunch-box-2.jpg</ImageUri>
-      <Description>Lunch time</Description>
-    </gift>
+    
     <gift>
       <Name>jeep</Name>
-      <ImageUri>../Images/kids/jeep-wrangler.jpg</ImageUri>
+      <ImageUri>../Images/jeep-wrangler.jpg</ImageUri>
       <Description>Drive safely</Description>
     </gift>
     <gift>
       <Name>beach towel</Name>
-      <ImageUri>../Images/kids/beach-towel.jpg</ImageUri>
+      <ImageUri>../Images/beach-towel.jpg</ImageUri>
       <Description>Leisure</Description>
     </gift>
     <gift>
       <Name>kids cook</Name>
-      <ImageUri>../Images/kids/kids-cook.jpg</ImageUri>
+      <ImageUri>../Images/kids-cook.jpg</ImageUri>
       <Description>Cooking</Description>
     </gift>
     <gift>
       <Name>night vision camcorder</Name>
-      <ImageUri>../Images/kids/camcorder.jpg</ImageUri>
+      <ImageUri>../Images/camcorder.jpg</ImageUri>
       <Description>Discover</Description>
     </gift>
     <gift>
       <Name>bear</Name>
-      <ImageUri>../Images/kids/baby-bear.jpg</ImageUri>
+      <ImageUri>../Images/teddy-bear.jpg</ImageUri>
       <Description>Always there for you</Description>
     </gift>
     <gift>
       <Name>back pack</Name>
-      <ImageUri>../Images/kids/kitty-backpack.jpg</ImageUri>
+      <ImageUri>../Images/kitty-backpack.jpg</ImageUri>
       <Description> Always there </Description>
     </gift>
     <gift>
       <Name>microscope</Name>
-      <ImageUri>../Images/kids/microscope.jpg</ImageUri>
+      <ImageUri>../Images/microscope.jpg</ImageUri>
       <Description> Intelligent </Description>
     </gift>
     
     <gift>
       <Name>crayons</Name>
-      <ImageUri>../Images/kids/12-twig-crayon-set.jpg</ImageUri>
+      <ImageUri>../Images/12-twig-crayon-set.jpg</ImageUri>
       <Description> Creative</Description>
     </gift>
     <gift>
       <Name>leap top</Name>
-      <ImageUri>../Images/kids/leaptop.jpg</ImageUri>
+      <ImageUri>../Images/leaptop.jpg</ImageUri>
       <Description> Clever </Description>
     </gift>
     <gift>
       <Name>lunch box</Name>
-      <ImageUri>../Images/kids/lunch-box.jpg</ImageUri>
+      <ImageUri>../Images/lunch-box.jpg</ImageUri>
       <Description> Lunch Time </Description>
     </gift>
     <gift>
       <Name>castle</Name>
-      <ImageUri>../Images/kids/castle.jpg</ImageUri>
+      <ImageUri>../Images/castle.jpg</ImageUri>
       <Description> King </Description>
     </gift>
     <gift>
       <Name>punching bag </Name>
-      <ImageUri>../Images/kids/punching-bagjpg</ImageUri>
+      <ImageUri>../Images/punching-bag.jpg</ImageUri>
       <Description> Strong </Description>
-    </gift>
-    <gift>
-      <Name>necklace</Name>
-      <ImageUri>../Images/kids/charm-necklace.jpg</ImageUri>
-      <Description> Memorizes </Description>
-    </gift>
+    </gift>    
     <gift>
       <Name>book case</Name>
-      <ImageUri>../Images/kids/canvas-bookcase.jpg</ImageUri>
+      <ImageUri>../Images/canvas-bookcase.jpg</ImageUri>
       <Description> Organised </Description>
     </gift>
     <gift>
       <Name>bird watcher</Name>
-      <ImageUri>../Images/kids/bird-watcher.jpg</ImageUri>
+      <ImageUri>../Images/bird-watcher.jpg</ImageUri>
       <Description> Explorer </Description>
     </gift>
     <gift>
       <Name>camera</Name>
-      <ImageUri>../Images/kids/camera.jpg</ImageUri>
+      <ImageUri>../Images/camera.jpg</ImageUri>
       <Description> Visionary </Description>
     </gift>
     <gift>
       <Name>Learning tablet</Name>
-      <ImageUri>../Images/kids/learning-tablet.jpg</ImageUri>
+      <ImageUri>../Images/learning-tablet.jpg</ImageUri>
       <Description> Learn </Description>
     </gift>
     <gift>
       <Name>drawer</Name>
-      <ImageUri>../Images/kids/drawer.jpg</ImageUri>
+      <ImageUri>../Images/drawer.jpg</ImageUri>
       <Description> Storage unit</Description>
     </gift>
     <gift>
       <Name>airplane</Name>
-      <ImageUri>../Images/kids/airplane.jpg</ImageUri>
+      <ImageUri>../Images/airplane.jpg</ImageUri>
       <Description> High above</Description>
     </gift>
     <gift>
       <Name>chair</Name>
-      <ImageUri>../Images/kids/chair.jpg</ImageUri>
+      <ImageUri>../Images/chair.jpg</ImageUri>
       <Description> Relax</Description>
     </gift>
     <gift>
       <Name>keyboard</Name>
-      <ImageUri>../Images/kids/keyboard.jpg</ImageUri>
+      <ImageUri>../Images/keyboard.jpg</ImageUri>
       <Description> Fun</Description>
     </gift>
     <gift>
       <Name>music station</Name>
-      <ImageUri>../Images/kids/music.jpg</ImageUri>
+      <ImageUri>../Images/music.jpg</ImageUri>
       <Description> Learn music</Description>
+    </gift>
+  </giftCategory>
+
+
+  <giftCategory name="Christmas">
+    <gift>
+      <Name>cookie jar</Name>
+      <ImageUri>../Images/santa-cookie-jar.jpg</ImageUri>
+      <Description>Sharing the True Meaning of Jesus' Birth</Description>
+    </gift>
+    <gift>
+      <Name>mugs</Name>
+      <ImageUri>../Images/santa-mugs.jpg</ImageUri>
+      <Description>Merry christmas</Description>
+    </gift>
+    <gift>
+      <Name>bouquet</Name>
+      <ImageUri>../Images/winter-grace-bouquet.jpg</ImageUri>
+      <Description>Friendship</Description>
+    </gift>
+    
+    <gift>
+      <Name>floor chair</Name>
+      <ImageUri>../Images/floor-chair.jpg</ImageUri>
+      <Description>Leisure</Description>
+    </gift>
+    
+    <gift>
+      <Name>cellar wine</Name>
+      <ImageUri>../Images/santa-cellars-wine.jpg</ImageUri>
+      <Description>Best wishes</Description>
+    </gift>
+    <gift>
+      <Name>locket</Name>
+      <ImageUri>../Images/locket.jpg</ImageUri>
+      <Description>Friends forever</Description>
+    </gift>
+    <gift>
+      <Name>plant</Name>
+      <ImageUri>../Images/plants.jpg</ImageUri>
+      <Description>Best wishes</Description>
+    </gift>
+    <gift>
+      <Name>partridge</Name>
+      <ImageUri>../Images/partidge.jpg</ImageUri>
+      <Description>Happy holidays</Description>
+    </gift>
+    <gift>
+      <Name>locket ornament</Name>
+      <ImageUri>../Images/locket-ornament.jpg</ImageUri>
+      <Description>Friendship</Description>
+    </gift>
+    <gift>
+      <Name>umbrella</Name>
+      <ImageUri>../Images/umbrella.jpg</ImageUri>
+      <Description>I will protect you no matter what</Description>
+    </gift>
+    <gift>
+      <Name>gift basket</Name>
+      <ImageUri>../Images/gift-basket.jpg</ImageUri>
+      <Description>Friendship</Description>
+    </gift>
+   
+    <gift>
+      <Name>flowers</Name>
+      <ImageUri>../Images/flower.jpg</ImageUri>
+      <Description>Friendship</Description>
+    </gift>
+    <gift>
+      <Name>vase</Name>
+      <ImageUri>../Images/vase.jpg</ImageUri>
+      <Description>Hold you with Love and care</Description>
+    </gift>
+    <gift>
+      <Name>golf ball finder glasses</Name>
+      <ImageUri>../Images/golf-ball-finder-glasses.jpg</ImageUri>
+      <Description>Be afinder</Description>
+    </gift>
+    <gift>
+      <Name>dog stockings</Name>
+      <ImageUri>../Images/stockings.jpg</ImageUri>
+      <Description>Caring</Description>
+    </gift>
+    
+    
+    <gift>
+      <Name>dream light</Name>
+      <ImageUri>../Images/dreamlight.jpg</ImageUri>
+      <Description>Dream light</Description>
+    </gift>
+    <gift>
+      <Name>ornaments</Name>
+      <ImageUri>../Images/ornaments.jpg</ImageUri>
+      <Description>Memories</Description>
+    </gift>
+    <gift>
+      <Name>paper towel dispenser</Name>
+      <ImageUri>../Images/paper-towel-dispenser.jpg</ImageUri>
+      <Description>Take care</Description>
+    </gift>
+    <gift>
+      <Name>bouquet</Name>
+      <ImageUri>../Images/once-bouquet.jpg</ImageUri>
+      <Description>Once upon a daisy</Description>
+    </gift>
+    <gift>
+      <Name>engagement rings</Name>
+      <ImageUri>../Images/engagement-rings.jpg</ImageUri>
+      <Description>You are the One I want to get married to</Description>
+      <mean> A particularly wonderful gift is an engagement ring when you realize your girlfriend is The One and you want to get married! </mean>
+    </gift>
+    <gift>
+      <Name>fish bowl</Name>
+      <ImageUri>../Images/glass-fish-bowl.jpg</ImageUri>
+      <Description>Transparency</Description>
+    </gift>
+    <gift>
+      <Name>darts board</Name>
+      <ImageUri>../Images/darts-board.jpg</ImageUri>
+      <Description>Happy holidays</Description>
+    </gift>
+   
+    <gift>
+      <Name>air plant</Name>
+      <ImageUri>../Images/airplant.jpg</ImageUri>
+      <Description>Transparency</Description>
+    </gift>
+    <gift>
+      <Name>necklace</Name>
+      <ImageUri>../Images/heart-necklace.jpg</ImageUri>
+      <Description>You care deeply</Description>
+      <mean>Jewelry tends to speak the loudest for girls. A heart-shaped gold and diamond necklace will tell your girlfriend that you love her or that you care deeply about her and you want a token of that love to hang around her neck as a constant reminder.</mean>
+    </gift>
+    <gift>
+      <Name>fridge</Name>
+      <ImageUri>../Images/fridge.jpg</ImageUri>
+      <Description>Friendship</Description>
+    </gift>
+    <gift>
+      <Name>gps</Name>
+      <ImageUri>../Images/gps.jpg</ImageUri>
+      <Description>Always locate yourself</Description>
+    </gift>
+    <gift>
+      <Name>hammock</Name>
+      <ImageUri>../Images/hammock.jpg</ImageUri>
+      <Description>Relax</Description>
+    </gift>
+    <gift>
+      <Name>plant</Name>
+      <ImageUri>../Images/bonsal-plants.jpg</ImageUri>
+      <Description>Friendship</Description>
+    </gift>
+    
+    <gift>
+      <Name>picture frame</Name>
+      <ImageUri>../Images/picture-frame.jpg</ImageUri>
+      <Description>Memories</Description>
+    </gift>
+    <gift>
+      <Name>candle</Name>
+      <ImageUri>../Images/shadow-procandles.jpg</ImageUri>
+      <Description>Celebrate the birth of the Savior</Description>
+      <mean>The candle's light symbolizes Christ's light in a world of darkness to many cultures during the Christmas season</mean>
+    </gift>
+    <gift>
+      <Name>jewelry box</Name>
+      <ImageUri>../Images/jewelry-box.jpg</ImageUri>
+      <Description>Precious</Description>
+    </gift>
+    <gift>
+      <Name>make-up bag</Name>
+      <ImageUri>../Images/makeup-bag.jpg</ImageUri>
+      <Description>Look beautiful</Description>
+    </gift>
+    
+    <gift>
+      <Name>family photo calender</Name>
+      <ImageUri>../Images/family-photo-calender.jpg</ImageUri>
+      <Description>Memories</Description>
+    </gift>
+    <gift>
+      <Name>music box</Name>
+      <ImageUri>../Images/music-box.jpg</ImageUri>
+      <Description>Go back to your childhood </Description>
+      <mean>Find one that doubles as a jewelry box so she can keep her jewelry or any small souvenirs from your relationship in it. It can also be a keepsake itself. She will love such a thoughtful and charming present that Christmas morning can be just as exciting like it is for a child!  </mean>
+    </gift>    
+    <gift>
+      <Name>christmas tree</Name>
+      <ImageUri>../Images/decorated-tree.jpg</ImageUri>
+      <Description>Merry christmas</Description>
+    </gift>
+    
+    <gift>
+      <Name>tree stocking holder</Name>
+      <ImageUri>../Images/tree-stocking-holder.jpg</ImageUri>
+      <Description>Hold my life</Description>
+    </gift>
+    <gift>
+      <Name>banner</Name>
+      <ImageUri>../Images/banner.jpg</ImageUri>
+      <Description>Make me shine</Description>
+    </gift>
+    <gift>
+      <Name>camera</Name>
+      <ImageUri>../Images/camera.jpg</ImageUri>
+      <Description>Capture all those special moments. </Description>
+      <mean>There is no better way to keep grandparents enjoying their grandkids than by giving them a digital camera to help them capture all those special moments.  </mean>
+    </gift>
+    
+    <gift>
+      <Name>teapot</Name>
+      <ImageUri>../Images/teapot-set.jpg</ImageUri>
+      <Description>Serve</Description>
+    </gift>
+    <gift>
+      <Name>tie box</Name>
+      <ImageUri>../Images/tie-box.jpg</ImageUri>
+      <Description>Mean a lot</Description>
+    </gift>
+    <gift>
+      <Name>crystal ornament</Name>
+      <ImageUri>../Images/crystal-ornaments.jpg</ImageUri>
+      <Description>Shine with the brith of christ</Description>
+    </gift>
+    <gift>
+      <Name>clock</Name>
+      <ImageUri>../Images/wide-wall-clock.jpg</ImageUri>
+      <Description>All the time</Description>
+    </gift>
+    
+    <gift>
+      <Name>leaping tree</Name>
+      <ImageUri>../Images/leaping-reiddeer-tree.jpg</ImageUri>
+      <Description>Best wishes</Description>
+    </gift>
+    <gift>
+      <Name>wine glass</Name>
+      <ImageUri>../Images/wine-glass.jpg</ImageUri>
+      <Description>Friendship</Description>
+    </gift>
+    
+    <gift>
+      <Name>whiskey stones</Name>
+      <ImageUri>../Images/whiskey-stones.jpg</ImageUri>
+      <Description>Feel strong</Description>
+    </gift>
+    <gift>
+      <Name>tea pot </Name>
+      <ImageUri>../Images/teapot.jpg</ImageUri>
+      <Description>Relax</Description>
+    </gift>
+    <gift>
+      <Name>cufflinks</Name>
+      <ImageUri>../Images/cufflinks.jpg</ImageUri>
+      <Description>Look great</Description>
+    </gift>
+    <gift>
+      <Name>book</Name>
+      <ImageUri>../Images/book.jpg</ImageUri>
+      <Description>I love you</Description>
+    </gift>
+    <gift>
+      <Name>snow board</Name>
+      <ImageUri>../Images/snowboard.jpg</ImageUri>
+      <Description>Sail</Description>
+    </gift>
+    <gift>
+      <Name>towel warmer</Name>
+      <ImageUri>../Images/towel-warmer.jpg</ImageUri>
+      <Description>Feel warm</Description>
+    </gift>
+    <gift>
+      <Name>book</Name>
+      <ImageUri>../Images/book-gent.jpg</ImageUri>
+      <Description>Be a gentleman</Description>
+    </gift>
+    <gift>
+      <Name>gold beads</Name>
+      <ImageUri>../Images/gold-bead-garland.jpg</ImageUri>
+      <Description>I wish you a Golden christmas </Description>
+    </gift>
+    <gift>
+      <Name>fruits</Name>
+      <ImageUri>../Images/fruits.jpg</ImageUri>
+      <Description>Good fortune</Description>
+    </gift>
+  </giftCategory>
+
+  <giftCategory name="Birthday">
+    <gift>
+      <Name>mug</Name>
+      <ImageUri>../Images/math-mug.jpg</ImageUri>
+      <Description>Friendship</Description>
+    </gift>
+    <gift>
+      <Name>alphabet</Name>
+      <ImageUri>../Images/alphabet.jpg</ImageUri>
+      <Description>Friendship</Description>
+    </gift>
+    <gift>
+      <Name>pocket watch</Name>
+      <ImageUri>../Images/pocket-watch.jpg</ImageUri>
+      <Description>Friendship</Description>
+    </gift>
+    <gift>
+      <Name>wine bottle</Name>
+      <ImageUri>../Images/wine-bottle.jpg</ImageUri>
+      <Description>Friendship</Description>
+    </gift>
+    <gift>
+      <Name>wine rack</Name>
+      <ImageUri>../Images/wine-rack.jpg</ImageUri>
+      <Description>Friendship</Description>
+    </gift>
+    <gift>
+      <Name>boxers</Name>
+      <ImageUri>../Images/boxers.jpg</ImageUri>
+      <Description>Friendship</Description>
+    </gift>
+    <gift>
+      <Name>cooker</Name>
+      <ImageUri>../Images/cooker.jpg</ImageUri>
+      <Description>Energy saving</Description>
+    </gift>
+    <gift>
+      <Name>bouquet</Name>
+      <ImageUri>../Images/lovely-lady.jpg</ImageUri>
+      <Description>Lovely lady</Description>
+    </gift>
+    <gift>
+      <Name>cosmetics</Name>
+      <ImageUri>../Images/cosmetics.jpg</ImageUri>
+      <Description>Look beautiful</Description>
+    </gift>
+    <gift>
+      <Name>base ball</Name>
+      <ImageUri>../Images/baseball.jpg</ImageUri>
+      <Description>Always win</Description>
+    </gift>
+    <gift>
+      <Name>gps</Name>
+      <ImageUri>../Images/gps.jpg</ImageUri>
+      <Description>Keep tracking</Description>
+    </gift>
+    <gift>
+      <Name>battery charger</Name>
+      <ImageUri>../Images/battery-charger.jpg</ImageUri>
+      <Description>Be charged</Description>
+    </gift>
+   
+    <gift>
+      <Name>barometer clock</Name>
+      <ImageUri>../Images/barometer-clock.jpg</ImageUri>
+      <Description>No time pressures</Description>
+    </gift>
+    <gift>
+      <Name>sweets and savories</Name>
+      <ImageUri>../Images/sweets-savories.jpg</ImageUri>
+      <Description>I like you</Description>
+    </gift>
+    <gift>
+      <Name>sculpture</Name>
+      <ImageUri>../Images/sculpture.jpg</ImageUri>
+      <Description>Memories</Description>
+    </gift>
+    <gift>
+      <Name>birth stone</Name>
+      <ImageUri>../Images/birthstone.jpg</ImageUri>
+      <Description>Love and care</Description>
+    </gift>
+    <gift>
+      <Name>fruits and sweets box</Name>
+      <ImageUri>../Images/fruit-sweets-box.jpg</ImageUri>
+      <Description>Care</Description>
+    </gift>
+    <gift>
+      <Name>love bird sculpture</Name>
+      <ImageUri>../Images/lovebirds-sculpture.jpg</ImageUri>
+      <Description>Love memories</Description>
+    </gift>
+    <gift>
+      <Name>cake</Name>
+      <ImageUri>../Images/cake.jpg</ImageUri>
+      <Description>Love and care</Description>
+    </gift>
+    <gift>
+      <Name>phone</Name>
+      <ImageUri>../Images/iphone.jpg</ImageUri>
+      <Description>Keep in touch</Description>
+    </gift>
+    <gift>
+      <Name>usb bracelet</Name>
+      <ImageUri>../Images/usb-bracelet.jpg</ImageUri>
+      <Description>Intelligent</Description>
+    </gift>
+    <gift>
+      <Name>pillow</Name>
+      <ImageUri>../Images/pillow.jpg</ImageUri>
+      <Description>Nice dreams</Description>
+    </gift>
+    <gift>
+      <Name>photo album</Name>
+      <ImageUri>../Images/photo-album.jpg</ImageUri>
+      <Description>Memories</Description>
+    </gift>
+    <gift>
+      <Name>picture frame</Name>
+      <ImageUri>../Images/picture-frame.jpg</ImageUri>
+      <Description>Friendship</Description>
+    </gift>
+    <gift>
+      <Name>back pack</Name>
+      <ImageUri>../Images/backpack.jpg</ImageUri>
+      <Description>By your side</Description>
+    </gift>
+    <gift>
+      <Name>lunch bag</Name>
+      <ImageUri>../Images/lunch-bag.jpg</ImageUri>
+      <Description>Friendship</Description>
+    </gift>
+    <gift>
+      <Name>pre-shave gel</Name>
+      <ImageUri>../Images/preshave-gel.jpg</ImageUri>
+      <Description>Care</Description>
+    </gift>    
+    <gift>
+      <Name>hand bag</Name>
+      <ImageUri>../Images/hand-bug.jpg</ImageUri>
+      <Description>By your side</Description>
+    </gift>
+    <gift>
+      <Name>dream house</Name>
+      <ImageUri>../Images/dream-house.jpg</ImageUri>
+      <Description>Friendship</Description>
+    </gift>
+    <gift>
+      <Name>ceramic bank</Name>
+      <ImageUri>../Images/ceramic-bank.jpg</ImageUri>
+      <Description>Saving</Description>
+    </gift>
+    <gift>
+      <Name>lunch box</Name>
+      <ImageUri>../Images/lunch-box.jpg</ImageUri>
+      <Description>Friendship</Description>
+    </gift>
+    <gift>
+      <Name>money clip and card holder</Name>
+      <ImageUri>../Images/clip-holder.jpg</ImageUri>
+      <Description>Safe</Description>
+    </gift>
+    <gift>
+      <Name>teddy bear</Name>
+      <ImageUri>../Images/teddy-bear.jpg</ImageUri>
+      <Description>Always there for you</Description>
+    </gift>
+    <gift>
+      <Name>sofa</Name>
+      <ImageUri>../Images/sofa.jpg</ImageUri>
+      <Description>Comfort</Description>
+    </gift>
+    
+    <gift>
+      <Name>lamp</Name>
+      <ImageUri>../Images/genie-lamp.jpg</ImageUri>
+      <Description>Light</Description>
+    </gift>
+    <gift>
+      <Name>flowers</Name>
+      <ImageUri>../Images/flowers.jpg</ImageUri>
+      <Description>Love</Description>
+    </gift>
+    <gift>
+      <Name>chocolate cake</Name>
+      <ImageUri>../Images/chocolate-cake.jpg</ImageUri>
+      <Description>Love</Description>
+    </gift>
+    <gift>
+      <Name>water float</Name>
+      <ImageUri>../Images/connectable-fido-float.jpg</ImageUri>
+      <Description>Confident</Description>
+    </gift>
+    <gift>
+      <Name>car</Name>
+      <ImageUri>../Images/car.jpg</ImageUri>
+      <Description>Friendship</Description>
+    </gift>
+    <gift>
+      <Name>pocket watch</Name>
+      <ImageUri>../Images/pocket-watch.jpg</ImageUri>
+      <Description>Friendship</Description>
+    </gift>
+    <gift>
+      <Name>wallet</Name>
+      <ImageUri>../Images/wallet.jpg</ImageUri>
+      <Description>Safe</Description>
+    </gift>
+    <gift>
+      <Name>t-shirt</Name>
+      <ImageUri>../Images/t-shirt.jpg</ImageUri>
+      <Description>Best wishes</Description>
+    </gift>
+    <gift>
+      <Name>necklace</Name>
+      <ImageUri>../Images/heart-necklace.jpg</ImageUri>
+      <Description>Friendship</Description>
+    </gift>
+    <gift>
+      <Name>birthday book</Name>
+      <ImageUri>../Images/birthday-book.jpg</ImageUri>
+      <Description>Reminder</Description>
+    </gift>
+    <gift>
+      <Name>panty gram</Name>
+      <ImageUri>../Images/pantygram.jpg</ImageUri>
+      <Description>Care</Description>
+    </gift>
+    <gift>
+      <Name>note book</Name>
+      <ImageUri>../Images/notebook.jpg</ImageUri>
+      <Description>Reminder</Description>
+    </gift>
+  </giftCategory>
+
+  <giftCategory name="Anniversary">
+    <gift>
+      <Name>paper</Name>
+      <ImageUri>../Images/tradPaper-1st-ann.jpg</ImageUri>
+      <Description>Happy Anniversary</Description>
+    </gift>
+    <gift>
+      <Name>clock</Name>
+      <ImageUri>../Images/modClocks.jpg</ImageUri>
+      <Description>i enjoy every min with you</Description>
+    </gift>
+    <gift>
+      <Name>flowers</Name>
+      <ImageUri>../Images/anni-flowers.jpg</ImageUri>
+      <Description>I love you more</Description>
+    </gift>
+
+    <gift>
+      <Name>wood frame</Name>
+      <ImageUri>../Images/tradWood.jpg</ImageUri>
+      <Description>Memories</Description>
+    </gift>
+    <gift>
+      <Name>silver ware</Name>
+      <ImageUri>../Images/modSilverware.jpg</ImageUri>
+      <Description>Happy Fifth Anniversary</Description>
+    </gift>
+    <gift>
+      <Name>tin</Name>
+      <ImageUri>../Images/tradTin.jpg</ImageUri>
+      <Description>Tenth Anniversary</Description>
+    </gift>
+    <gift>
+      <Name>diamond</Name>
+      <ImageUri>../Images/modDiamond.jpg</ImageUri>
+      <Description>You are my precious</Description>
+    </gift>
+    <gift>
+      <Name>chinese Vase</Name>
+      <ImageUri>../Images/tradChina.jpg</ImageUri>
+      <Description>I treasure you </Description>
+    </gift>
+    <gift>
+      <Name>ring</Name>
+      <ImageUri>../Images/modPlatinum.jpg</ImageUri>
+      <Description> All the best </Description>
+    </gift>
+    <gift>
+      <Name>silver cups</Name>
+      <ImageUri>../Images/tradSilver.jpg</ImageUri>
+      <Description> Happy Jubilee </Description>
+    </gift>
+    <gift>
+      <Name>silver glasses</Name>
+      <ImageUri>../Images/silverware-glass.jpg</ImageUri>
+      <Description> Blessed Jubilee </Description>
+    </gift>
+
+    <gift>
+      <Name>silver pen</Name>
+      <ImageUri>../Images/modSilver.jpg</ImageUri>
+      <Description> Happy Silver Jubilee</Description>
+    </gift>
+    <gift>
+      <Name>watch</Name>
+      <ImageUri>../Images/tradGold.jpg</ImageUri>
+      <Description>I treasure the time with you  </Description>
+    </gift>
+    <gift>
+      <Name>ring</Name>
+      <ImageUri>../Images/modGold.jpg</ImageUri>
+      <Description>All the best </Description>
+    </gift>
+    <gift>
+      <Name>champagne</Name>
+      <ImageUri>../Images/champagne.jpg</ImageUri>
+      <Description> Congratulations </Description>
+    </gift>
+    <gift>
+      <Name>watch and valet</Name>
+      <ImageUri>../Images/watch-valet.jpg</ImageUri>
+      <Description> Jubilee celebrations </Description>
+    </gift>
+    <gift>
+      <Name>tea pot</Name>
+      <ImageUri>../Images/teapot.jpg</ImageUri>
+      <Description>Happy anniversary </Description>
+    </gift>
+    <gift>
+      <Name>cup and sauce</Name>
+      <ImageUri>../Images/cup-sauce.jpg</ImageUri>
+      <Description>Happy golden Jubilee </Description>
+    </gift>
+    <gift>
+      <Name>watch case</Name>
+      <ImageUri>../Images/watch-case.jpg</ImageUri>
+      <Description>Golden celebrations </Description>
     </gift>
   </giftCategory>
 </gifts>
